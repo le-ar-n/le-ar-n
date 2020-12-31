@@ -23,3 +23,7 @@ github:
 
 plugins:
   - jekyll-feed
+
+collections:
+  sessions:
+    output: true
