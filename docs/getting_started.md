@@ -3,7 +3,9 @@ layout: page
 title: Getting Started
 ---
 
-[Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)
+<iframe src="https://player.vimeo.com/video/496027774" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/496027774">Welcome to our Video Tutorial Series of L.E.A.R.N.</a></p>
+
 
 ### 1. Setting up the Anaconda environment with COMPAS
 
@@ -57,11 +59,11 @@ Create a workspace directory:
 
 C:\Users\YOUR_USERNAME\workspace
 
-Then open Github Desktop and clone the following repositories into you workspace folder:
+Then open Github Desktop and clone the following repository into you workspace folder:
 
-* [afab_course](https://github.com/augmentedfabricationlab/afab_course)
-
-
+* [L.E.A.R.N. repository](https://github.com/le-ar-n/le-ar-n)
 
 
-#### Voilà! You can now go to VS Code, Rhino or Grasshopper to run the example files!
+**Voilà! You can now go to VS Code, Rhino or Grasshopper to run the example files!**
+
+[Slides](https://docs.google.com/presentation/d/1XW2h3WrHfVG4USUCjJp5Sgxk5VMwEWn4va1VxWz6eRc/edit?usp=sharing)

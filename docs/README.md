@@ -18,6 +18,9 @@ cmd line tools:
 * bundle install
 * bundle exec jekyll serve
 
+View locally in browser:
+[http://127.0.0.1:4000/le-ar-n](http://127.0.0.1:4000/le-ar-n)
+
 # Todos
 
 * Put sessions into a Submenu into the Sidebar
