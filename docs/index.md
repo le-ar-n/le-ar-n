@@ -16,17 +16,17 @@ Please set up your Python environment following these [instructions](getting_sta
 
 # Session Blocks
 
-Title | Description | Slides | Links | Exercises 
------ | ----------- | ------ | ----- | ---------
-[Python Basics](sessions/01_python_basics) | Quick start on Python | | |
-[Geometry](sessions/02_geometry) | COMPAS geometry  | | | 
-Data Structures | COMPAS data structures  | | | 
-Assembly Information Model | Assembly and Element data structures  | | | 
-Frames and Transformations | Frames and transformations  | | | 
-Robotic Fabrication Planning | Planning of a robotic assembly process | | | 
-Robotic Fabrication Control | Control of a robotic assembly process | | | 
-Design Algorithms | Simple generative design algorithms | | | 
-Utilities | Helpful utilities | | | 
+Title | Description | Slides | Links 
+----- | ----------- | ------ | ----- 
+[Python Basics](sessions/01_python_basics) | Quick start on Python | | 
+[Geometry](sessions/02_geometry) | COMPAS geometry  | |  
+Data Structures | COMPAS data structures  | | 
+Assembly Information Model | Assembly and Element data structures  | | 
+Frames and Transformations | Frames and transformations  | |  
+Robotic Fabrication Planning | Planning of a robotic assembly process | |  
+Robotic Fabrication Control | Control of a robotic assembly process | |  
+Design Algorithms | Simple generative design algorithms | |  
+Utilities | Helpful utilities | |  
 
 
 # Requirements
