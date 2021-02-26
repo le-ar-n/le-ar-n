@@ -18,7 +18,7 @@ Please set up your Python environment following these [instructions](getting_sta
 
 Title | Description | Slides | Links 
 ----- | ----------- | ------ | ----- 
-[Python Basics](sessions/01_python_basics) | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1TQNj92qhDZBSEtYajfmCCKaSDm2lwxsIdcFl3V1vE7Q/edit?usp=sharing)| 
+[Python Basics](sessions/01_python_basics) | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing)| 
 [Geometry](sessions/02_geometry) | COMPAS geometry  | |  
 Data Structures | COMPAS data structures  | | 
 Assembly Information Model | Assembly and Element data structures  | | 
