@@ -32,7 +32,7 @@ Execute the commands below in Anaconda Prompt:
     ...
 
 <iframe src="https://player.vimeo.com/video/496027774" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/500532145">Welcome to our Video Tutorial Series of L.E.A.R.N.</a></p>
+<p><a href="https://vimeo.com/500532145">Setting up your Anaconda environment with COMPAS</a></p>
 
 ### Install on Rhino
 
