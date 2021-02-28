@@ -16,18 +16,18 @@ Please set up your Python environment following these [instructions](getting_sta
 
 # Session Blocks
 
-Title | Description | Slides | Links 
+Page | Description | Slides  
 ----- | ----------- | ------ | ----- 
-[Python Basics](sessions/01_python_basics) | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing)| 
-[Geometry](sessions/02_geometry) | COMPAS geometry  | [COMPAS Geometry](https://docs.google.com/presentation/d/1B_O2qr_oV_Olf64CaTKgPp1fjy4Z61LwsM8OHDhlvyQ/edit?usp=sharing) |  
-Data Structures | COMPAS data structures  | [COMPAS Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing) | 
-Assembly Information Model | Assembly and Element data structures  | [Assembly Information Model](https://docs.google.com/presentation/d/1J1jkmQLJ98wGwzvmwt8uPxFqBe0STTynKg6Yyv8J2nE/edit?usp=sharing) |
-AM Information Model | Additive Manufacturing data structures  | [AM Information Model](https://docs.google.com/presentation/d/1gLgQDtK69PGTvqRwn9LETbHu659OO8nmUyur00MQUM0/edit?usp=sharing) | 
-Frames and Transformations | Frames and transformations  | [Frames and transformations](https://docs.google.com/presentation/d/1eXnclwxPe9wMHOsk25_IeLtQKK4OSs0BAjjTEWq7eF0/edit?usp=sharing) | 
-Robotic Fabrication Planning | Planning of a robotic assembly process | [Robotic Fabrication Planning](https://docs.google.com/presentation/d/1qSVU1neaKMGB9G6ZXQtxqF8JLM43VixEK1s12HQNV-g/edit?usp=sharing) |  
-Robotic Fabrication Control | Control of a robotic assembly process | [Robotic Fabrication Control](https://docs.google.com/presentation/d/1vHCZJLlue4ypWv8aqYPhdepQ9mzrjY1xkL59vnXltqw/edit?usp=sharing) |  
-Design Algorithms | Simple generative design algorithms |  |  
-Utilities | Helpful utilities | |  
+[Python Basics](sessions/01_python_basics) | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing) 
+[Geometry](sessions/02_geometry) | COMPAS geometry  | [COMPAS Geometry](https://docs.google.com/presentation/d/1B_O2qr_oV_Olf64CaTKgPp1fjy4Z61LwsM8OHDhlvyQ/edit?usp=sharing) 
+Data Structures | COMPAS data structures  | [COMPAS Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing)  
+Assembly Information Model | Assembly and Element data structures  | [Assembly Information Model](https://docs.google.com/presentation/d/1J1jkmQLJ98wGwzvmwt8uPxFqBe0STTynKg6Yyv8J2nE/edit?usp=sharing) 
+AM Information Model | Additive Manufacturing data structures  | [AM Information Model](https://docs.google.com/presentation/d/1gLgQDtK69PGTvqRwn9LETbHu659OO8nmUyur00MQUM0/edit?usp=sharing) 
+Frames and Transformations | Frames and transformations  | [Frames and transformations](https://docs.google.com/presentation/d/1eXnclwxPe9wMHOsk25_IeLtQKK4OSs0BAjjTEWq7eF0/edit?usp=sharing) 
+Robotic Fabrication Planning | Planning of a robotic assembly process | [Robotic Fabrication Planning](https://docs.google.com/presentation/d/1qSVU1neaKMGB9G6ZXQtxqF8JLM43VixEK1s12HQNV-g/edit?usp=sharing) 
+Robotic Fabrication Control | Control of a robotic assembly process | [Robotic Fabrication Control](https://docs.google.com/presentation/d/1vHCZJLlue4ypWv8aqYPhdepQ9mzrjY1xkL59vnXltqw/edit?usp=sharing)  
+Design Algorithms | Simple generative design algorithms | 
+Utilities | Helpful utilities |  
 
 
 # Requirements
