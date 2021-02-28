@@ -114,7 +114,6 @@ for item in mylist:
 ```
 
 * iterating over numbers in range()
-> The range() function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration: range(start, stop, step)
 
 ```python 
 for i in range(0, 10, 2):
