@@ -225,7 +225,7 @@ negative Index
 >>> spam = ['cat', 'bat', 3, 'elephant']
 >>> spam.append('append me!')
 
->>>spam
+>>> spam
 ['cat', 'bat', 3, 'elephant', 'append me!']
 ```
 
@@ -243,7 +243,7 @@ Definition:
 >>> my_dict
 {'key1': 'value1', 'key2': 'value2', 'key3':'value3'} 
 
->>>my_dict['key1']
+>>> my_dict['key1']
 'value1'
 ```
 
@@ -252,7 +252,7 @@ Example:
 ```python
 >>> prices_lookup = {'apples':2.99, 'oranges':1.89}
 
->>>prices_lookup['apples']
+>>> prices_lookup['apples']
 2.99
 ```
 
@@ -327,9 +327,11 @@ When creating a function using the **def** statement, you can specify what the *
 * The return keyword
 * The value or expression that the function should return
 
-```python
+
 * Write a function that computes the volume of a sphere given its radius.
 * The volume of a sphere is given as $$\frac{4}{3} πr^3$$
+
+```python
 >>> import math
 >>> def vol(rad=5):
 >>>    V = 4/3 * math.pi* rad**3 
@@ -386,8 +388,9 @@ This is a red car with 4 wheels
 ```
 
 
+* Find out the cost of a rectangular field with breadth(b=120), length(l=160). It costs x (2000) rupees per 1 square unit:
+
 ```python
->>> Find out the cost of a rectangular field with breadth(b=120), length(l=160). It costs x (2000) rupees per 1 square unit
 >>> class Rectangle:
 >>>    def __init__(self, length, breadth, unit_cost=0):
 >>>        self.length = length
