@@ -297,11 +297,8 @@ pink
 Definition:
 
 ```python
-def name_of_funktion(name):
-    "
-    Docstring explains funktion
-    "
-    print("Hello" + name)
+def name_of_function(name):
+    pass
 ``` 
 
 Example:
