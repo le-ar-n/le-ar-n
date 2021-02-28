@@ -360,7 +360,7 @@ Dataclasses are python classes but are suited for storing data objects. This mod
 * Storing data and representing certain data type 
 * Comparing to other objects of the same type
 
-`self.`
+`self`
 
 * representing the instance of a class 
 * accessing the attributes and methods of the class in python
