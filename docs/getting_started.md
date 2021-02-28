@@ -3,10 +3,6 @@ layout: page
 title: Getting Started
 ---
 
-<iframe src="https://player.vimeo.com/video/496027774" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/496027774">Welcome to our Video Tutorial Series of L.E.A.R.N.</a></p>
-
-
 ### 1. Setting up the Anaconda environment with COMPAS
 
 Execute the commands below in Anaconda Prompt:
@@ -68,14 +64,17 @@ Then open Github Desktop and clone the following repository into you workspace f
 
 ### 4. Videos
 
+<iframe src="https://player.vimeo.com/video/496027774" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/496027774">Welcome to our Video Tutorial Series of L.E.A.R.N.</a></p>
+
 <iframe src="https://player.vimeo.com/video/500532145" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/500532145">Setting up your Anaconda environment with COMPAS</a></p>
 
 <iframe src="https://player.vimeo.com/video/500532396" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/500532396">Installation of dependencies</a></p>
 
-<iframe src="https://player.vimeo.com/video/500532640" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-<p><a href="https://vimeo.com/500532640">Python in VS Code</a></p>
+<iframe src="https://player.vimeo.com/video/500532546" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/500532546">Python in VS Code</a></p>
 
 <iframe src="https://player.vimeo.com/video/500532640" width="320" height="180" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/500532640">Python in Rhino and Grasshopper</a></p>
