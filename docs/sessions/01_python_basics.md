@@ -68,7 +68,8 @@ Operators  | Operation  | Example
 
 ## If - elif - else statements
 
-Definition
+Definition:
+
 ```python
 if my_condition is equal a value:
     execute some code
@@ -77,23 +78,10 @@ elif my_other_condition is equal another value:
 else:
     do something else
 ```
-    
-Example
-```python
-mysite = "afab"
-if mysite == "robot lab":
-    print("It is part of the DesignFactory")
-elif mysite == "afab":
-    print("Coding is fun")
-else:
-    print("I do not know much")
-```
-
-`Coding is fun`
 
 ## While loop
 
-Definition
+Definition:
 * repeats statment(s) while a condition is TRUE
 * requires an exit condition
 
@@ -355,7 +343,7 @@ When creating a function using the **def** statement, you can specify what the *
 * if word starts with a vowel, add "ay" to end
 * if word does not start with a vowel, put first letter at the end, then add "ay"
 
->>> def pig_latin(word):
+>>> def latin(word):
 >>>     first_letter = word[0] 
 >>>     if first_letter in "aeiou":
 >>>         pig_word = word + "ay"
@@ -363,7 +351,7 @@ When creating a function using the **def** statement, you can specify what the *
 >>>         pig_word = word[1:] + first_letter + "ay"        
 >>>     return pig_word
 
->>> pig_latin("apple")
+>>> latin("apple")
 'appleay'
 ```
 
@@ -372,11 +360,13 @@ Dataclasses are python classes but are suited for storing data objects. This mod
 * Storing data and representing certain data type 
 * Comparing to other objects of the same type
 
-`self.` 
+`self.`
+
 * representing the instance of a class 
 * accessing the attributes and methods of the class in python
 
-`__init__()` 
+`__init__()`
+
 * A reseved method in python classes 
 * Called as constructor in object oriented terminology: Called when an object is created from a class and allows the class to initialize the attributes of the class
 
