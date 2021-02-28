@@ -109,8 +109,8 @@ else:
 
 ```python 
 mylist = [1,2,3,4,5,6,7,8,9,10]
-for jelly in mylist:
-    print(jelly)
+for item in mylist:
+    print(item)
 ```
 
 * iterating over numbers in range()
@@ -189,10 +189,9 @@ print('Access granted.')
 ```python 
 >>> spam = ['cat', 'bat', 3, 'elephant']
 
-positive Index
 >>> spam[2]
 '2'
-negative Index
+
 >>> spam[-1]
 'elephant'
 ```
@@ -250,7 +249,7 @@ Definition:
 Example:
 
 ```python
->>> prices_lookup = {'apples':2.99, 'oranges':1.89}
+>>> prices_lookup = {'apples': 2.99, 'oranges': 1.89}
 
 >>> prices_lookup['apples']
 2.99
@@ -298,25 +297,25 @@ Definition:
 
 ```python
 def name_of_function(name):
-    pass
+    do something
 ``` 
 
 Example:
 
 ```python
->>> def name_function():
+>>> def print_hello():
 >>>     print("Hello")
 
->>> name_function()
+>>> print_hello()
 Hello
 ```
 
 ```python
->>> def ran_check(num,low,high):
+>>> def run_check(num,low,high):
 >>>     if num in range(low,high):
 >>>         print (f"{num} is in the range between {low} and {high}")
         
->>> ran_check(5,2,7)
+>>> run_check(5,2,7)
 5 is in the range between 2 and 7
 ```
 
@@ -324,6 +323,7 @@ When creating a function using the **def** statement, you can specify what the *
 * The return keyword
 * The value or expression that the function should return
 
+Example:
 
 * Write a function that computes the volume of a sphere given its radius.
 * The volume of a sphere is given as $$\frac{4}{3} πr^3$$
@@ -338,10 +338,12 @@ When creating a function using the **def** statement, you can specify what the *
 523.5987755982989
 ```
 
-```python
+Example:
+
 * if word starts with a vowel, add "ay" to end
 * if word does not start with a vowel, put first letter at the end, then add "ay"
 
+```python
 >>> def latin(word):
 >>>     first_letter = word[0] 
 >>>     if first_letter in "aeiou":
@@ -369,6 +371,8 @@ Dataclasses are python classes but are suited for storing data objects. This mod
 * A reseved method in python classes 
 * Called as constructor in object oriented terminology: Called when an object is created from a class and allows the class to initialize the attributes of the class
 
+Example:
+
 ```python
 >>> class Vehicle():
 >>>     def __init__(self, colour, nb_wheels, name):
@@ -384,6 +388,7 @@ This is a blue bike with  2  wheels
 This is a red car with 4 wheels
 ```
 
+Example:
 
 * Find out the cost of a rectangular field with breadth(b=120), length(l=160). It costs x (2000) rupees per 1 square unit:
 
@@ -425,18 +430,18 @@ Area of Rectangle: 19200 sq units
 3.141592653589793
 ```
 
-* to get **COMPAS** working in Grasshopper
+* import **COMPAS** in Grasshopper
 
 In Grasshopper, COMPAS is imported from within a GhPython component. To verify that everything is working properly, simply create a GhPython component on your Grasshopper canvas, paste the following script and hit OK
 
 ```python
->>> import compas
+import compas
 
->>> from compas.datastructures import Mesh
->>> from compas_ghpython.artists import MeshArtist
->>> mesh = Mesh.from_obj(compas.get('faces.obj'))
+from compas.datastructures import Mesh
+from compas_ghpython.artists import MeshArtist
+mesh = Mesh.from_obj(compas.get('faces.obj'))
 
->>> artist = MeshArtist(mesh)
+artist = MeshArtist(mesh)
 
->>> a = artist.draw_mesh()
+a = artist.draw_mesh()
 ```
