@@ -12,7 +12,7 @@ lesson: 2
 
 ### COMPAS main
 
-![alt text](https://github.com/le-ar-n/le-ar-n/blob/main/docs/_images/compas_geometry.png "Compas main")
+<img src="https://github.com/le-ar-n/le-ar-n/blob/main/docs/_images/compas_geometry.png">
 
 The core package of COMPAS (compas) defines all functionality for geometry processing, data structures, topology, numerical methods, robotics, the plugin mechanism, remote procedure calls … and can be used independently of CAD systems in any environment that supports Python programming.
 
@@ -20,7 +20,6 @@ The CAD packages (compas_rhino, compas_ghpython, compas_blender) provide a unifi
 
 ### Cross Product
 
-<img src="_images/vector_cross_product.png" alt="hi" class="inline"/>
 
 ### Cross Product using COMPAS Classes
 
