@@ -12,7 +12,7 @@ lesson: 2
 
 ### COMPAS main
 
-<img src="_images/compas_geometry.png" alt="hi" class="inline"/>
+![alt text](https://github.com/le-ar-n/le-ar-n/blob/main/docs/_images/compas_geometry.png "Compas main")
 
 The core package of COMPAS (compas) defines all functionality for geometry processing, data structures, topology, numerical methods, robotics, the plugin mechanism, remote procedure calls … and can be used independently of CAD systems in any environment that supports Python programming.
 
