@@ -12,13 +12,15 @@ lesson: 2
 
 ### COMPAS main
 
-<img src="_images/Ecompas_geometry.png" alt="hi" class="inline"/>
+<img src="_images/compas_geometry.png" alt="hi" class="inline"/>
 
 The core package of COMPAS (compas) defines all functionality for geometry processing, data structures, topology, numerical methods, robotics, the plugin mechanism, remote procedure calls … and can be used independently of CAD systems in any environment that supports Python programming.
 
 The CAD packages (compas_rhino, compas_ghpython, compas_blender) provide a unified framework for reading and writing CAD geometry, for visualization of COMPAS geometry and data structures, and for basic user inter interaction in Blender, Rhino, and Grasshopper.
 
 ### Cross Product
+
+<img src="_images/vector_cross_product.png" alt="hi" class="inline"/>
 
 ### Cross Product using COMPAS Classes
 
