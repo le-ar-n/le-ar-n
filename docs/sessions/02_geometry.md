@@ -12,9 +12,9 @@ lesson: 2
 
 ### COMPAS main
 
-<img src="/docs/_images/compas_geometry.png" width="500">
+<img src="https://github.com/le-ar-n/le-ar-n/blob/main/docs/_images/compas_geometry.png" width="500">
 
-The core package of COMPAS (compas) defines all functionality for geometry processing, data structures, topology, numerical methods, robotics, the plugin mechanism, remote procedure calls … and can be used independently of CAD systems in any environment that supports Python programming.
+The main library of COMPAS provides flexible data structures, a geometry processing library, robot fundamentals, numerical solvers, and various other components as a base framework for computational AE(F)C research.
 
 The CAD packages (compas_rhino, compas_ghpython, compas_blender) provide a unified framework for reading and writing CAD geometry, for visualization of COMPAS geometry and data structures, and for basic user inter interaction in Blender, Rhino, and Grasshopper.
 
