@@ -12,7 +12,7 @@ lesson: 2
 
 ### COMPAS main
 
-<img src="https://github.com/le-ar-n/le-ar-n/blob/main/docs/_images/compas_geometry.png" width="500">
+<img src="https://github.com/le-ar-n/le-ar-n/blob/main/docs/_images/compas_geometry.png">
 
 The main library of COMPAS provides flexible data structures, a geometry processing library, robot fundamentals, numerical solvers, and various other components as a base framework for computational AE(F)C research.
 
