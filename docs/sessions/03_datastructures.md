@@ -32,7 +32,10 @@ In COMPAS a network is a “directed edge graph” that encodes the relationship
 >>> mesh = Mesh.from_obj(FILE)
 
 >>> print(mesh.summary())
+```
 
+```python
+>>>
 Mesh summary
 ============
 - vertices: 36
@@ -54,7 +57,10 @@ Mesh summary
 >>> network = Network.from_obj(FILE)
 
 >>> print(network.summary())
+```
 
+```python
+>>>
 Graph summary
 ============
 - nodes: 32
