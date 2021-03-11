@@ -21,21 +21,17 @@ In COMPAS a network is a “directed edge graph” that encodes the relationship
 ### Constructing a Mesh
 
 ```python
-import os
-import compas
-from compas.datastructures import Mesh
+>>> import os
+>>> import compas
+>>> from compas.datastructures import Mesh
 
-HERE = os.path.dirname(__file__)
-DATA = os.path.join(HERE, 'data')
-FILE = os.path.join(DATA, 'faces.obj')
+>>> HERE = os.path.dirname(__file__)
+>>> DATA = os.path.join(HERE, 'data')
+>>> FILE = os.path.join(DATA, 'faces.obj')
 
-mesh = Mesh.from_obj(FILE)
+>>> mesh = Mesh.from_obj(FILE)
 
-print(mesh.summary())
-```
-
-```python
->>>
+>>> print(mesh.summary())
 
 Mesh summary
 ============
@@ -58,10 +54,6 @@ Mesh summary
 >>> network = Network.from_obj(FILE)
 
 >>> print(network.summary())
-```
-
-```python
->>>
 
 Graph summary
 ============
