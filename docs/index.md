@@ -20,7 +20,7 @@ Page | Description | Slides
 ----- | ----------- | ------ | ----- 
 [Python Basics](sessions/01_python_basics) | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing){:target="_blank"}
 [Geometry](sessions/02_geometry) | COMPAS geometry  | [COMPAS Geometry](https://docs.google.com/presentation/d/1B_O2qr_oV_Olf64CaTKgPp1fjy4Z61LwsM8OHDhlvyQ/edit?usp=sharing){:target="_blank"}
-[Data Structures](sessions/02_datastructures) | COMPAS data structures  | [COMPAS Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing){:target="_blank"}
+[Data Structures](sessions/03_datastructures) | COMPAS data structures  | [COMPAS Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing){:target="_blank"}
 Assembly Information Model | Assembly and Element data structures  | [Assembly Information Model](https://docs.google.com/presentation/d/1J1jkmQLJ98wGwzvmwt8uPxFqBe0STTynKg6Yyv8J2nE/edit?usp=sharing){:target="_blank"} 
 AM Information Model | Additive Manufacturing data structures  | [AM Information Model](https://docs.google.com/presentation/d/1gLgQDtK69PGTvqRwn9LETbHu659OO8nmUyur00MQUM0/edit?usp=sharing){:target="_blank"} 
 Frames and Transformations | Frames and transformations  | [Frames and transformations](https://docs.google.com/presentation/d/1eXnclwxPe9wMHOsk25_IeLtQKK4OSs0BAjjTEWq7eF0/edit?usp=sharing){:target="_blank"} 
