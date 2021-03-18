@@ -14,6 +14,7 @@
 'This is also a string'
 
 "This is a string with 'another string' inside"
+'This is a string with "another string" inside'
 
 """This is a multiline string.
 

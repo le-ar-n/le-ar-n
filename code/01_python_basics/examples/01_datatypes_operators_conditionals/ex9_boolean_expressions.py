@@ -1,5 +1,0 @@
-print(True or False)
-print(True and False)
-print(10 == 10)
-print(50 <= 60)
-print(not True)
