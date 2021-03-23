@@ -1,4 +1,5 @@
-# Conditional statements
+"""Conditional statements"""
+
 int_a = 57
 
 if int_a == 57:

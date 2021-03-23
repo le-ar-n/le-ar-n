@@ -1,3 +1,5 @@
+"""Tuple datatypes"""
+
 # A tuple is similar to a list, however the sequence is immutable.
 # This means, they can not be changed or added to.
 

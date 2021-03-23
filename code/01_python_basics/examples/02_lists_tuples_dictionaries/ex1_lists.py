@@ -1,4 +1,5 @@
-# Lists
+"""List datastructure"""
+
 # Datastructures such as lists can contain any of the previously described datatypes
 integer_list = [1, 3, 4, 6, 8, 11, 13]
 float_list = [0.1, 1.4, 7.3, 12.2, 20.0]

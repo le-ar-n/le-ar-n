@@ -1,4 +1,5 @@
-# Arithmetic Operators, using values:
+"""Arithmetic Operators"""
+# using values:
 a = 10
 b = 5.5
 c = 3

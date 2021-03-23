@@ -1,4 +1,5 @@
-# Identity operators
+"""Identity operators"""
+
 a = 1
 b = 20
 

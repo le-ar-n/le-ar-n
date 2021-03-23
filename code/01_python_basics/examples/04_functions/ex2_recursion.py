@@ -1,17 +1,15 @@
-# recursion
-def Fibonacci(iteration): 
-    if iteration<=0: 
-        print("Incorrect input") 
-    # First Fibonacci number is 0 
-    elif iteration==1: 
+"""Recursion"""
+# Functions can be called inside of the same function
+def fibonacci(sequence):
+    if sequence < 0:
+        print("Incorrect input")
+    if sequence == 0:
         return 0
-    # Second Fibonacci number is 1 
-    elif iteration==2: 
+    elif sequence == 1:
         return 1
     else:
-        #print(iteration)
-        return Fibonacci(iteration-1)+Fibonacci(iteration-2) 
+        return fibonacci(sequence-1) + fibonacci(sequence-2)
 
-iteration = 10
-for i in range(iteration):
-    print(Fibonacci(i)) 
+fib_seq = 10
+for i in range(fib_seq):
+    print(fibonacci(i)) 

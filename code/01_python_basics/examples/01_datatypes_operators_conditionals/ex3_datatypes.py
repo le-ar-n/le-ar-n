@@ -1,4 +1,4 @@
-# Datatypes selection and assignment
+"""Datatypes selection and assignment"""
 a = "Datatypes"     # String
 b = 10              # Integer
 c = 5.5             # Float

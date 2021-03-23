@@ -1,4 +1,5 @@
-# Dictionaries
+"""Dictionary datatype"""
+
 # Unordered datatype with key:value pairs, there are no duplicates allowed
 my_dict = {
     "name" : "Kathrin", 

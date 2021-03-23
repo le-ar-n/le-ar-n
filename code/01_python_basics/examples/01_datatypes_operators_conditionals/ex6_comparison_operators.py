@@ -1,4 +1,5 @@
-# Comparison operators
+"""Comparison operators"""
+
 a = 10
 b = 10
 c = 11

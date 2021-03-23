@@ -1,4 +1,5 @@
-# List methods
+"""List methods"""
+
 new_list = ["string", 5, 12.1, True, 16]
 
 # Adding to list datatypes can be done in a few different ways
