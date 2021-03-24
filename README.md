@@ -4,7 +4,7 @@
 
 Welcome to [**L.E.A.R.N.**](https://le-ar-n.github.io/le-ar-n/), a platform dedicated to beginner-friendly creative coding tutorials and exercises for building architecture with robots.
 
-In these tutorials, we will introduce computational methods for architecture, fabrication & construction, incentivising computational literacy. Students will learn the theoretical background and basic implementation details of fundamental datastructures and algorithms, and to plan and control robot tasks in CAD environments using the [COMPAS](https://compas-dev.github.io/) and [COMPAS FAB](https://gramaziokohler.github.io/compas_fab/latest/) framework, and other open-source libraries.
+In these tutorials, we will introduce computational methods for architecture, fabrication & construction, incentivising computational literacy. Students will learn the theoretical background and basic implementation details of fundamental datastructures and algorithms, and to plan and control robot tasks in CAD environments using the **[COMPAS](https://compas-dev.github.io/)** and **[COMPAS FAB](https://gramaziokohler.github.io/compas_fab/latest/)** framework, and other open-source libraries.
 
 
 ## Session Blocks
@@ -39,7 +39,7 @@ Title | Description | Slides
 * [UR Fabrication Control](https://github.com/augmentedfabricationlab/ur_fabrication_control)
 
 
-## Environment setup and installation
+## Getting started
 
 Please set up your Python environment following these instructions:
 
