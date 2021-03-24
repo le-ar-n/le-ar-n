@@ -95,8 +95,7 @@ Create a workspace directory:
 
 C:\Users\YOUR_USERNAME\workspace
 
-Then open Github Desktop and clone the following repository into you workspace folder:
+Then open Github Desktop and clone the [L.E.A.R.N. repository](https://github.com/le-ar-n/le-ar-n) into you workspace folder.
 
-* [L.E.A.R.N. repository](https://github.com/le-ar-n/le-ar-n)
-
-**Voilà! You can now go to VS Code, Rhino or Grasshopper to run the example files!**
+**Voilà!**
+**You can now go to VS Code, Rhino or Grasshopper to run the example files!**
