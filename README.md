@@ -14,7 +14,7 @@ Please set up your Python environment following these [instructions](getting_sta
 # Session Blocks
 
 Title | Description | Slides  
------ | ----------- | ------ | ----- 
+----- | ----------- | ------
 Python Basics | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing)
 Geometry | COMPAS geometry  | [COMPAS Geometry](https://docs.google.com/presentation/d/1B_O2qr_oV_Olf64CaTKgPp1fjy4Z61LwsM8OHDhlvyQ/edit?usp=sharing)
 Data Structures | COMPAS data structures  | [COMPAS Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing)
