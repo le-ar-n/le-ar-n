@@ -36,6 +36,7 @@ Title | Description | Slides
 * [COMPAS](https://compas-dev.github.io/)
 * [COMPAS FAB](https://gramaziokohler.github.io/compas_fab/latest/)
 * [Assembly Information Model](https://github.com/augmentedfabricationlab/assembly_information_model)
+* [AM Information Model](https://github.com/augmentedfabricationlab/am_information_model)
 * [UR Fabrication Control](https://github.com/augmentedfabricationlab/ur_fabrication_control)
 
 
