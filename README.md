@@ -84,6 +84,11 @@ NOTE: This installs to Rhino 6.0, use `-v 5.0` if needed.
     (learn) python -m pip install git+https://github.com/augmentedfabricationlab/assembly_information_model@master#egg=assembly_information_model
     (learn) python -m compas_rhino.install -p assembly_information_model
 
+#### AM Information Model
+    
+    (learn) python -m pip install git+https://github.com/augmentedfabricationlab/am_information_model@master#egg=am_information_model
+    (learn) python -m compas_rhino.install -p am_information_model
+
 #### UR Fabrication Control
     
     (learn) python -m pip install git+https://github.com/augmentedfabricationlab/ur_fabrication_control@master#egg=ur_fabrication_control
