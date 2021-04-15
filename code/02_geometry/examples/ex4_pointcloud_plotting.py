@@ -21,7 +21,7 @@ for xyz in cloud:
 
 plotter = Plotter(figsize=(8, 5))
 
-# Returns the matplotlib point collection object. 
+# Returns a matplotlib point collection object 
 plotter.draw_points(points) 
 # Draw points on a 2D plot.
 plotter.show()
