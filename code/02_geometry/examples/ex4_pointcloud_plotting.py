@@ -1,26 +1,27 @@
 from random import random
 from compas.geometry import Pointcloud
-from compas.geometry import Point, Circle, Plane
 from compas_plotters import Plotter
 from compas.utilities import i_to_green
 from compas.utilities import i_to_red
 
+# Construct a point cloud within a given box and by the number of the points in it
 cloud = Pointcloud.from_bounds(10, 5, 0, 20)
+
+# Create a list for storing the individual points
 points = []
-cirlces = []
 
 for xyz in cloud:
-    print(xyz)
-    n = random()
+    n = random() # Assign a random value to the variable n
+    points.append({ # Append each point in the cloud to the points-list
+        'pos': xyz, # Store the properties of each point in a dictionary. Each point is represented by a circle with: 
+        'radius': n, # a given radius
+        'edgecolor': i_to_green(n), # edge colour
+        'facecolor': i_to_red(n)}) # and face colour
 
-    points.append(xyz)
-    
-    radius = n
-    plane = Plane(xyz, [0,0,1])
-    circle = Circle(plane, radius)
-        # 'edgecolor': i_to_green(n), 
-        # 'facecolor': i_to_red(n)})
 
 plotter = Plotter(figsize=(8, 5))
-plotter.draw_lines(points)
+
+# Returns the matplotlib point collection object. 
+plotter.draw_points(points) 
+# Draw points on a 2D plot.
 plotter.show()
