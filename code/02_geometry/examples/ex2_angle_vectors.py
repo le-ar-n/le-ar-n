@@ -1,7 +1,7 @@
 import math
 from compas.geometry import Vector
 
-# Create two vectors
+# Create two unit vectors
 u = Vector(1.0, 0.0, 0.0)
 v = Vector(0.0, 1.0, 0.0)
 
