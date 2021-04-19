@@ -27,8 +27,9 @@ for key, attr in mesh.vertices(data=True):
 for (u, v), attr in mesh.edges(data=True):
     print((u, v), attr)
 
-# count the number of vertices in the mesh
+# count the number of vertices in the mesh and print them
 n = mesh.number_of_vertices()
+print("number of vertices: ", n)
 
 # visualise COMPAS meshes using MeshPlotter
 plotter = MeshPlotter(mesh, figsize=(12, 8))
