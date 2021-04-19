@@ -9,6 +9,22 @@ FILE = os.path.join(DATA, 'faces.obj')
 
 mesh = Mesh.from_obj(FILE)
 
+
+for key in mesh.vertices():
+    print(mesh.vertex_degree(key)) # Count the neighbors of a vertex
+    print(mesh.vertex)
+
+
+for key in mesh.vertices():
+    print(mesh.vertex_coordinates(key)) 
+    print(mesh.vertex_normal(key)) 
+    print(mesh.vertex_area(key)) 
+
+for fkey in mesh.faces():
+    print(mesh.face_coordinates(fkey))
+    print(mesh.face_normal(fkey)) 
+    print(mesh.face_area(fkey))
+
 for key in mesh.vertices():
     print(mesh.vertex_neighbors(key))
     print(mesh.vertex_degree(key))
