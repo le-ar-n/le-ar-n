@@ -9,33 +9,31 @@ FILE = os.path.join(DATA, 'faces.obj')
 
 mesh = Mesh.from_obj(FILE)
 
+print(mesh.default_vertex_attributes) # Default vertex attributes.
+print(mesh.default_face_attributes) # Default face attributes.
+print(mesh.default_edge_attributes) # Default edge attributes.
 
-for key in mesh.vertices():
-    print(mesh.vertex_degree(key)) # Count the neighbors of a vertex
-    print(mesh.vertex)
+# # Print mesh vertex, face and edge attributes for each vertex, face and edge of the mesh object
+# for key, attr in mesh.vertices(data=True):
+#     print(key, attr)
+# for key, attr in mesh.faces(data=True):
+#     print(key, attr)
+# for (u, v), attr in mesh.edges(data=True):
+#     print((u, v), attr)
 
 
-for key in mesh.vertices():
-    print(mesh.vertex_coordinates(key)) 
-    print(mesh.vertex_normal(key)) 
-    print(mesh.vertex_area(key)) 
+# Update the default edge attributes
+mesh.update_default_edge_attributes({
+    'q': 1.0,
+    'f': 0.0})
 
-for fkey in mesh.faces():
-    print(mesh.face_coordinates(fkey))
-    print(mesh.face_normal(fkey)) 
-    print(mesh.face_area(fkey))
+for (u, v), attr in mesh.edges(data=True):
+    # print((u, v), attr) # edge attributes
 
-for key in mesh.vertices():
-    print(mesh.vertex_neighbors(key))
-    print(mesh.vertex_degree(key))
-    print(mesh.vertex_neighborhood(key))
-    print(mesh.vertex_faces(key))
+    # print(mesh.vertex_attribute(0, 'x')) # mesh vertex attribute
 
-for fkey in mesh.faces():
-    print(mesh.face_vertices(fkey))
-    print(mesh.face_neighbors(fkey))
-    print(mesh.face_halfedges(fkey))
+    # print(mesh.vertex_attributes(0, 'xyz')) # mesh vertex attributes
 
-    for key in mesh.face_vertices(fkey):
-        print(mesh.face_vertex_ancestor(fkey, key))
-        print(mesh.face_vertex_descendant(fkey, key))
+    # print(mesh.vertices_attribute('x')) # mesh vertices attribute
+
+    print(mesh.vertices_attributes('xyz')) # mesh vertices attributes
