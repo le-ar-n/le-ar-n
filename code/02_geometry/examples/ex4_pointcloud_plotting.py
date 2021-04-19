@@ -18,11 +18,11 @@ for xyz in cloud:
         'edgecolor': i_to_green(n), # edge colour
         'facecolor': i_to_red(n)}) # and face colour
 
-
+# visualise using Plotter
 plotter = Plotter(figsize=(8, 5))
 
 # returns a matplotlib point collection object 
 plotter.draw_points(points)
  
-# draw points on a 2D plot
+# display the plot
 plotter.show()
