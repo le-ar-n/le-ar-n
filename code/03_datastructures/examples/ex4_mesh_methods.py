@@ -8,9 +8,10 @@ HERE = os.path.dirname(__file__)
 DATA = os.path.join(HERE, 'data')
 FILE = os.path.join(DATA, 'faces.obj')
 
-# construct a mesh datastrcuture from an OBJ file
+# construct a mesh datastructure from an OBJ file
 mesh = Mesh.from_obj(FILE)
 
+# Geometry
 for key in mesh.vertices():
     print(mesh.vertex_degree(key)) # count the neighbors of a vertex
     print(mesh.vertex) # return mesh vertices
@@ -25,6 +26,7 @@ for facekey in mesh.faces():
     print(mesh.face_normal(facekey)) # compute the normal of a face
     print(mesh.face_area(facekey)) # compute the area of a face
 
+# Topology: Through its half-edge data structure, a mesh can answer several topological questions about itself and its components.
 for key in mesh.vertices():
     print(mesh.vertex_neighbors(key)) # return the neighbors of a vertex
     print(mesh.vertex_degree(key)) # count the neighbors of a vertex
@@ -39,3 +41,4 @@ for facekey in mesh.faces():
     for key in mesh.face_vertices(facekey):
         print(mesh.face_vertex_ancestor(facekey, key)) # return the n-th vertex before the specified vertex in a specific face
         print(mesh.face_vertex_descendant(facekey, key)) # return the n-th vertex after the specified vertex in a specific face
+

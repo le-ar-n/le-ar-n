@@ -9,7 +9,7 @@ HERE = os.path.dirname(__file__)
 DATA = os.path.join(HERE, 'data')
 FILE = os.path.join(DATA, 'faces.obj')
 
-# construct a mesh datastrcuture from an OBJ file
+# construct a mesh datastructure from an OBJ file
 mesh = Mesh.from_obj(FILE)
 
 # visualise COMPAS meshes using MeshPlotter
