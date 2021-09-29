@@ -11,7 +11,7 @@ In these tutorials, we will introduce computational methods for architecture, fa
 
 Title | Description | Slides  
 ----- | ----------- | ------
-**Python Basics** | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing)
+**Python Basics** | Quick start on Python | [Python Basics](https://docs.google.com/presentation/d/1WHFK_gnQg8jOp2D4GcX2HFWUhVAizvreffQBoUX3fVA/edit?usp=sharing){target="_blank"}
 **Geometry** | COMPAS geometry  | [Geometry](https://docs.google.com/presentation/d/1B_O2qr_oV_Olf64CaTKgPp1fjy4Z61LwsM8OHDhlvyQ/edit?usp=sharing)
 **Frames and Transformations** | Frames and transformations  | [Frames and Transformations](https://docs.google.com/presentation/d/1eXnclwxPe9wMHOsk25_IeLtQKK4OSs0BAjjTEWq7eF0/edit?usp=sharing)
 **Data Structures** | COMPAS data structures  | [Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing)
