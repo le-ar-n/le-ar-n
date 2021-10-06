@@ -1,6 +1,7 @@
 """Conditional statements"""
 
 int_a = 57
+var_2 = 74
 
 if int_a == 57:
     print("The value of this variable is 57")

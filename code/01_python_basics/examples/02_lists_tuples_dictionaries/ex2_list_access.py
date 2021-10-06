@@ -28,4 +28,4 @@ new_list[1:3] = [100, 16.6]
 print(new_list)
 # lists can also contain lists (called nested lists)
 new_list[4] = ["list", "inside", "list"] 
-print(new_list
+print(new_list)

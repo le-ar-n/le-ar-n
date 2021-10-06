@@ -45,4 +45,4 @@ mesh.vertices_where({'x': 1.0, 'y': (0.0, 10.0)}) # get vertices for which a cer
 
 a = mesh.vertices_where({'x': 1})
 b = mesh.vertices_where({'x': (5, 10)})
-list(set(a + b))
+print(list(a)+list(b))

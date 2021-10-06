@@ -1,7 +1,7 @@
 """For statement"""
 # iterating over number range
 for i in range(5):
-    print(n / 5.0 + 100)
+    print(i / 5.0 + 100)
 
 # iterating over a sequence of items (usually a list)
 pets = ["dog", "cat", "horse", "rabbit", "snake"]
@@ -22,4 +22,4 @@ for i, pet in enumerate(pets):
 # iterating over two lists (with the same length)
 homes = ["house", "flat", "farm", "office", "basement"]
 for pet, home in zip(pets, homes):
-    print("The {} lives in the {}".format(pet, house))
+    print("The {} lives in the {}".format(pet, home))
