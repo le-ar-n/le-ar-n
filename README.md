@@ -52,11 +52,11 @@ Execute the commands below in Anaconda Prompt:
     (base) conda config --add channels conda-forge
 
 #### Windows
-    (base) conda create -n learn python=3.8 compas_fab=0.17 --yes
+    (base) conda create -n learn compas_fab --yes
     (base) conda activate learn
 
 #### Mac
-    (base) conda create -n learn python=3.8 compas_fab=0.17 python.app --yes
+    (base) conda create -n learn compas_fab python.app --yes
     (base) conda activate learn
     
 
@@ -65,7 +65,7 @@ Execute the commands below in Anaconda Prompt:
     (learn) pip show compas_fab
 ####
     Name: compas-fab
-    Version: 0.13.1
+    Version: 0.19.1
     Summary: Robotic fabrication package for the COMPAS Framework
     ...
 
