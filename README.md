@@ -85,21 +85,21 @@ NOTE: This installs default to Rhino 6.0, if you are using a different Rhino ver
     (learn) python -m pip install git+https://github.com/augmentedfabricationlab/assembly_information_model@master#egg=assembly_information_model
     (learn) python -m compas_rhino.install -p assembly_information_model
     
-NOTE: If you are not using Rhino 6.0 version, add `-v 5.0` or `-v 7.0` after the above statement.
+NOTE: If you are not using Rhino 6.0 version, after the above statement, add `-v` followed by the version of your Rhino software (i.e `-v 5.0` or `-v 7.0`)
 
 #### AM Information Model
     
     (learn) python -m pip install git+https://github.com/augmentedfabricationlab/am_information_model@master#egg=am_information_model
     (learn) python -m compas_rhino.install -p am_information_model
 
-NOTE: If you are not using Rhino 6.0 version, add `-v 5.0` or `-v 7.0` after the above statement.
+NOTE: If you are not using Rhino 6.0 version, after the above statement, add `-v` followed by the version of your Rhino software (i.e `-v 5.0` or `-v 7.0`)
 
 #### UR Fabrication Control
     
     (learn) python -m pip install git+https://github.com/augmentedfabricationlab/ur_fabrication_control@master#egg=ur_fabrication_control
     (learn) python -m compas_rhino.install -p ur_fabrication_control
 
-NOTE: If you are not using Rhino 6.0 version, add `-v 5.0` or `-v 7.0` after the above statement.
+NOTE: If you are not using Rhino 6.0 version, after the above statement, add `-v` followed by the version of your Rhino software (i.e `-v 5.0` or `-v 7.0`)
 
 
 ### 3. Cloning the Course Repository
