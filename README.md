@@ -17,7 +17,7 @@ Title | Description | Slides
 **Data Structures** | COMPAS data structures  | [Data Structures](https://docs.google.com/presentation/d/1ZhYimM0iN6Z2A4RCKiuKsYBqPTwIptLr44-D3ilJjXc/edit?usp=sharing)
 **Assembly Information Model** | Assembly and Element data structures  | [Assembly Information Model](https://docs.google.com/presentation/d/1J1jkmQLJ98wGwzvmwt8uPxFqBe0STTynKg6Yyv8J2nE/edit?usp=sharing)
 **AM Information Model** | Additive Manufacturing data structures  | [AM Information Model](https://docs.google.com/presentation/d/1gLgQDtK69PGTvqRwn9LETbHu659OO8nmUyur00MQUM0/edit?usp=sharing)
-**XR Assembly** | Visualize Assembly data in XR  | [XR Assembly](https://docs.google.com/presentation/d/1ZU6XFAt_HEyu_zDBptTUUIb9nvY7vg5el1GtdM5wv14/edit?usp=sharing)
+**XR Assembly** | Visualize Assembly data in XR  | [XR Assembly](https://docs.google.com/presentation/d/1DdDuJAUb5US7SeI-M_4wPy6XgSvLWnsWIEJiyZtz0XI/edit?usp=sharing)
 **Robotic Fabrication Planning** | Planning of a robotic assembly process | [Robotic Fabrication Planning](https://docs.google.com/presentation/d/1qSVU1neaKMGB9G6ZXQtxqF8JLM43VixEK1s12HQNV-g/edit?usp=sharing)
 **Robotic Fabrication Control** | Control of a robotic assembly process | [Robotic Fabrication Control](https://docs.google.com/presentation/d/1vHCZJLlue4ypWv8aqYPhdepQ9mzrjY1xkL59vnXltqw/edit?usp=sharing)
 **Design Algorithms** | Simple generative design algorithms | 
