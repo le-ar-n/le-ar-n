@@ -1,0 +1,1 @@
+from random_walk.random_walk_from_image import RandomWalkImg

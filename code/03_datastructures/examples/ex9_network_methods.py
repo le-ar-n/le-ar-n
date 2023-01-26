@@ -25,10 +25,10 @@ for key in network.leaves(): # loop through the leaves of the network
 
     T = Translation.from_vector(vector) # create a translation from the vector
 
-    new_point = Point(end[0], end[1], end[2]) # create a new point from the coordinates of the end point
+    new_point = Point(*tuple(end)) # create a new point from the coordinates of the end point
     new_point.transform(T) # translate the new point with the translation T
 
-    network.node_attributes(key, 'xyz', [new_point[0], new_point[1], new_point[2]]) # set the new node coordinates with the getter/setter method node_attributes
+    network.node_attributes(key, 'xyz', [*tuple(new_point)]) # set the new node coordinates with the getter/setter method node_attributes
 
 # visualise COMPAS networks using NetworkPlotter
 plotter = NetworkPlotter(network, figsize=(12, 8))

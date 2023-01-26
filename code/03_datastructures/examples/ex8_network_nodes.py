@@ -1,7 +1,6 @@
 import os
 import compas
 from compas.datastructures import Network
-from compas.geometry import Vector, Translation, Point
 from compas_plotters import NetworkPlotter
 
 # file path to source file
