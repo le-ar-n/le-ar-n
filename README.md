@@ -31,6 +31,7 @@ Title | Description | Slides
 * [Anaconda Python](https://www.anaconda.com/distribution/?gclid=CjwKCAjwo9rtBRAdEiwA_WXcFoyH8v3m-gVC55J6YzR0HpgB8R-PwM-FClIIR1bIPYZXsBtbPRfJ8xoC6HsQAvD_BwE)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Github Desktop](https://desktop.github.com/)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 ## Dependencies
 
@@ -39,7 +40,7 @@ Title | Description | Slides
 * [Assembly Information Model](https://github.com/augmentedfabricationlab/assembly_information_model)
 * [AM Information Model](https://github.com/augmentedfabricationlab/am_information_model)
 * [UR Fabrication Control](https://github.com/augmentedfabricationlab/ur_fabrication_control)
-
+* [ABB Fabrication Control : COMPAS_RRC](https://compas-rrc.github.io/compas_rrc/latest/)
 
 ## Getting started
 
@@ -101,6 +102,12 @@ NOTE: If you are not using Rhino 6.0, after the above statement, add `-v` follow
 
 NOTE: If you are not using Rhino 6.0, after the above statement, add `-v` followed by the version of your Rhino software (i.e `-v 5.0` or `-v 7.0`)
 
+#### ABB Fabrication Control
+    
+    (learn) conda install compas_rrc
+    (learn) python -m compas_rhino.install -p compas_rrc
+
+NOTE: If you are not using Rhino 6.0, after the above statement, add `-v` followed by the version of your Rhino software (i.e `-v 5.0` or `-v 7.0`)
 
 ### 3. Cloning the Course Repository
 
