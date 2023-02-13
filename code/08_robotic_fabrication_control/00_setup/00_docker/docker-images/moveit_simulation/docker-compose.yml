@@ -1,0 +1,83 @@
+version: '2'
+services:
+  ros-master:
+    image: gramaziokohler/ros-noetic-moveit:latest
+    container_name: ros-master
+    ports:
+      - "11311:11311"
+    command:
+      - roscore
+
+  ros-bridge:
+    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    container_name: ros-bridge
+    environment:
+      - "ROS_HOSTNAME=ros-bridge"
+      - "ROS_MASTER_URI=http://ros-master:11311"
+    ports:
+      - "9090:9090"
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - rosbridge_server
+      - rosbridge_websocket.launch
+
+  ros-fileserver:
+    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    container_name: ros-fileserver
+    environment:
+      - ROS_HOSTNAME=ros-fileserver
+      - ROS_MASTER_URI=http://ros-master:11311
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - file_server
+      - file_server.launch
+      
+  abb-demo:
+    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    container_name: abb-crb15000-demo
+    environment:
+      - ROS_HOSTNAME=abb-demo
+      - ROS_MASTER_URI=http://ros-master:11311
+      # GUI: To forward the GUI to an external X11 server (eg. XMing), uncomment the following line
+      # - DISPLAY=host.docker.internal:0.0
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - abb_crb15000_5_95_moveit_config
+      - demo.launch
+      # To launch the RVIZ GUI, change the following to true
+      - use_rviz:=false
+      - pipeline:=ompl
+
+  gui:
+    image: gramaziokohler/novnc:latest
+    container_name: abb-crb15000-gui
+    ports:
+      - "8080:8080"
+
+
+  abb-driver-1:
+    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    container_name: abb-driver-1
+    environment:
+      - ROS_HOSTNAME=abb-driver-1
+      - ROS_MASTER_URI=http://ros-master:11311
+    depends_on:
+      - ros-master
+    command:
+      - roslaunch
+      - --wait
+      - compas_rrc_driver
+      - bringup.launch
+      - robot_ip:=192.168.125.1
+      - robot_streaming_port:=30101
+      - robot_state_port:=30201
+      - namespace:=rob1
