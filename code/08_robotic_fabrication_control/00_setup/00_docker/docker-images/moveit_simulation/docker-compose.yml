@@ -9,7 +9,7 @@ services:
       - roscore
 
   ros-bridge:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: ros-bridge
     environment:
       - "ROS_HOSTNAME=ros-bridge"
@@ -25,7 +25,7 @@ services:
       - rosbridge_websocket.launch
 
   ros-fileserver:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: ros-fileserver
     environment:
       - ROS_HOSTNAME=ros-fileserver
@@ -39,7 +39,7 @@ services:
       - file_server.launch
       
   abb-demo:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: abb-crb15000-demo
     environment:
       - ROS_HOSTNAME=abb-demo
@@ -65,7 +65,7 @@ services:
 
 
   abb-driver-1:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: abb-driver-1
     environment:
       - ROS_HOSTNAME=abb-driver-1
