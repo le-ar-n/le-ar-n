@@ -9,7 +9,7 @@ services:
       - roscore
 
   ros-bridge:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: ros-bridge
     environment:
       - "ROS_HOSTNAME=ros-bridge"
@@ -25,7 +25,7 @@ services:
       - rosbridge_websocket.launch
 
   ros-fileserver:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: ros-fileserver
     environment:
       - ROS_HOSTNAME=ros-fileserver
@@ -38,11 +38,11 @@ services:
       - file_server
       - file_server.launch
       
-  abb-demo:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
+  move-it:
+    image: gramaziokohler/ros-noetic-dfab:22.12
     container_name: abb-crb15000-demo
     environment:
-      - ROS_HOSTNAME=abb-demo
+      - ROS_HOSTNAME=move-it
       - ROS_MASTER_URI=http://ros-master:11311
       # GUI: To forward the GUI to an external X11 server (eg. XMing), uncomment the following line
       # - DISPLAY=host.docker.internal:0.0
@@ -57,27 +57,8 @@ services:
       - use_rviz:=false
       - pipeline:=ompl
 
-  gui:
-    image: gramaziokohler/novnc:latest
-    container_name: abb-crb15000-gui
-    ports:
-      - "8080:8080"
-
-
-  abb-driver-1:
-    image: augmentedfabricationlab/ros-abb-crb15000-planner:latest
-    container_name: abb-driver-1
-    environment:
-      - ROS_HOSTNAME=abb-driver-1
-      - ROS_MASTER_URI=http://ros-master:11311
-    depends_on:
-      - ros-master
-    command:
-      - roslaunch
-      - --wait
-      - compas_rrc_driver
-      - bringup.launch
-      - robot_ip:=192.168.125.1
-      - robot_streaming_port:=30101
-      - robot_state_port:=30201
-      - namespace:=rob1
+  # gui:
+  #   image: gramaziokohler/novnc:latest
+  #   container_name: abb-crb15000-gui
+  #   ports:
+  #     - "8080:8080"
