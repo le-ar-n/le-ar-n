@@ -1,0 +1,7 @@
+            <!-- CIPSafety Adapter Configuration -->
+            <Net name="CIPSafety" visible="true" readonly="false" description="The Internal CIP Safety Adapter communicates over this network.">
+              <Device name="EN_Internal_Device_Safe" inSizeBits="64" outSizeBits="64" address="" visible="true" readonly="false" description="Internal CIP Safety Adapter"
+                      scid="NotUsed" nodeId="C0A87D01" snn="123456789ABC" connectionType="target">
+              </Device>
+
+            </Net>

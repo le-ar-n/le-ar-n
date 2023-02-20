@@ -1,0 +1,85 @@
+<Signal name="fi_SafetyEnable" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_SafetySynchronization" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_ExtComShutdownAck" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_EnableRemoteModeChange" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_PaintSafetyInterlock" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_CabILK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_HvILK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_ProcILK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Sys2ILK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_TurbineILK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_MainAirSupp" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_ServoDisCon" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_CBSDisCon" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_EmyStopReset" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_ExtEmyStop" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_AutoStop" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_GeneralStop" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_DelayedStop" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_TestModeStop" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone01PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone02PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone03PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone04PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone05PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone06PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone07PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_Zone08PosSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_StandStillSupervision" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fi_EnableNonMotionExecution" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_SafetyControllerOperational" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_SafetySynchronized" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_ExtComShutdownReq" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_ConfigurationLocked" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_CommissioningMode" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_ServiceMode" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Stop0Status" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Stop1Status" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_LocalEmergencyStopStatus" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_DriveEnable" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_AutomaticMode" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_ManualFullSpeedMode" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_ManualMode" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_EnablingDevice" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_ExtEmyStopOK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_AutoStopOK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_GeneralStopOK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_DelayedStopOK" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_TestModeStopOk" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone01PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone01PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone02PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone02PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone03PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone03PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone04PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone04PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone05PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone05PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone06PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone06PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone07PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone07PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone08PosSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_Zone08PosViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_StandStillSupAct" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_StandStillViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_NonMotionExecutionEnabled" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="fo_NonMotionExecutionViolation" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="ManualFullSpeedMode" type="BOOL" default="0" visible="true"  readonly="false" />
+<Signal name="DriveEnableFeedback" type="BOOL" default="0" visible="true"  readonly="false" />
+<Signal name="TestModeStop" type="BOOL" default="0" visible="true" readonly="false" />
+<Signal name="StandStillSupervision" type="BOOL" default="0" visible="true"  readonly="false" />
+<Signal name="EnableNonMotionExecution" type="BOOL" default="0" visible="true"  readonly="false" />
+<Signal name="PaintSafetyInterlockFB" type="BOOL" default="0" visible="true"  readonly="false" />
+<Signal name="Disable_EPCActive__" type="BOOL" default="0" visible="false"  readonly="false" />
+<FuncIOMappings>
+  <AutomaticMode signalName="fo_AutomaticMode" mandatory="true" visible="true" />
+  <DriveEnable signalName="fo_DriveEnable" mandatory="true" visible="true" />
+  <LocalEmergencyStopStatus signalName="fo_LocalEmergencyStopStatus" mandatory="true" visible="true" />
+  <ManualMode signalName="fo_ManualMode" mandatory="true" visible="true" />
+  <ManualFullSpeedMode signalName="ManualFullSpeedMode" mandatory="true" />
+  <SafetyEnable signalName="fi_SafetyEnable" mandatory="true" visible="true" />
+  <DriveEnableFeedback signalName="DriveEnableFeedback" mandatory="true" visible="true" />
+  <GeneralOutput signalName="fi_PaintSafetyInterlock" mandatory="true" visible="true" protected="false" />
+</FuncIOMappings>

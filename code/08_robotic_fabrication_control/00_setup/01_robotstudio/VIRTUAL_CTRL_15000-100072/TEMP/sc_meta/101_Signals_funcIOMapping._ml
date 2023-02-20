@@ -1,0 +1,23 @@
+<!--
+            Declare FuncIOMappings.
+                The mapped signals must exist at this point - i.e., they
+                must already have been specified previously in the configuration file.
+                Default is mandatory="false". If the user does not assign a signal then
+                the mapping shall be removed.
+
+                When mandatory="true" then a signal must be specified and the entry cannot be deleted.
+
+                If the signal is marked as visible="false" then do not show the FuncIOMapping either.
+            -->
+            <FuncIOMappings>
+              <SafetyEnable                   signalName="SafetyEnable"                   mandatory="true" description="Must be true to enable safety functions. If false then DriveEnable will also be set to false." />
+
+              <AutomaticMode                  signalName="AutomaticMode"                  mandatory="true" description="True if Automatic mode is selected." />
+              <ManualMode                     signalName="ManualMode"                     mandatory="true" description="True if Manual mode is selected." />
+              <ManualFullSpeedMode            signalName="ManualFullSpeedMode"            mandatory="true" description="True if Manual Full Speed mode is selected." />
+
+              <DriveEnable                    signalName="DriveEnable"                    mandatory="true" description="True if the safety controller enables power to the actuators" />
+              <DriveEnableFeedback            signalName="DriveEnableFeedback"            mandatory="true" description="True if the Run Chain is closed." />
+
+              <LocalEmergencyStopStatus       signalName="LocalEmergencyStopStatus"       mandatory="true" description="False if the emergency stop, for example on the FlexPendant, is pressed." />
+            </FuncIOMappings>

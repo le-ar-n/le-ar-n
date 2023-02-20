@@ -1,0 +1,27 @@
+      <DriveModuleConfiguration driveModuleId="1" maxSpeedManualMode="0.25">
+        <Robot name="ROB_1" startSpeedOffset="0.1">
+          <Baseframe>
+            <Translation x="0" y="0" z="0" />
+            <Quaternion q1="1" q2="0" q3="0" q4="0" />
+          </Baseframe>
+          <ElbowOffset x="-0.05" y="-0.05" z="0.05" />
+          <Joint id="1" calPosition="0" />
+          <Joint id="2" calPosition="0" />
+          <Joint id="3" calPosition="-1.3962634" />
+          <Joint id="4" calPosition="0" />
+          <Joint id="5" calPosition="0" />
+          <Joint id="6" calPosition="0" />
+        </Robot>
+        <Tool id="1" name="Tool">
+          <TCP x="0" y="0" z="0" />
+          <ToolOrientation q1="1" q2="0" q3="0" q4="0" />
+        </Tool>
+        <SyncCheck>
+          <SyncPosition jointId="1" positionValue="0" />
+          <SyncPosition jointId="2" positionValue="0" />
+          <SyncPosition jointId="3" positionValue="0" />
+          <SyncPosition jointId="4" positionValue="0" />
+          <SyncPosition jointId="5" positionValue="0" />
+          <SyncPosition jointId="6" positionValue="0" />
+        </SyncCheck>
+      </DriveModuleConfiguration>

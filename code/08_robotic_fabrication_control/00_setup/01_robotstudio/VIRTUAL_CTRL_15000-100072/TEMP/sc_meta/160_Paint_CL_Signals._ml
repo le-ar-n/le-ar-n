@@ -1,0 +1,7 @@
+<!--
+            Declare any signal that is used exclusively by the Configurable Logic (CL).
+            -->
+<Signal name="PreCL_TestModeStop0_INT_0" type="BOOL" default="0" visible="false" />
+<Signal name="PreCL_TestModeStop1_INT_0" type="BOOL" default="0" visible="false" />
+<Signal name="PreCL_TestModeStop1_INT_1" type="BOOL" default="0" visible="false" />
+<Signal name="PostCL_fo_EnablingDevice0_INT_0" type="BOOL" default="0" visible="false" />

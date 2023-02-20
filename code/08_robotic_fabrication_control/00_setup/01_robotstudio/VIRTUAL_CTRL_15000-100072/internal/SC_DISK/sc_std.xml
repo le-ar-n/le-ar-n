@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SafetyConfiguration>
+<SiosCfg version="1.2">
+<Net name="SafeLocalIO" visible="false" readonly="true" description="Network for manipulating GPIO pins on the safety controller.">
+  <Device name="SafeLocalIODev" inSizeBits="6" outSizeBits="2" address="" visible="false" readonly="true" description="Device for manipulating GPIO pins on the safety controller.">
+    <FuncIO name="ExternalEmergencyStopStatus" offset="0" width="1" direction="input" visible="false" readonly="true" />
+    <FuncIO name="ProtectiveStop" offset="1" width="1" direction="input" visible="false" readonly="true" />
+    <FuncIO name="DriveEnableFeedback" offset="2" width="1" direction="input" visible="false" readonly="true" />
+    <FuncIO name="EnableSwitch" offset="3" width="1" direction="input" visible="false" readonly="true" />
+    <FuncIO name="LocalEmergencyStopStatus" offset="4" width="1" direction="input" visible="false" readonly="true" />    
+
+    <FuncIO name="DriveEnable" offset="0" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="EmergencyStopActivated" offset="1" width="1" direction="output" visible="false" readonly="true" />
+  </Device>
+</Net>
+</SiosCfg>
+</SafetyConfiguration>

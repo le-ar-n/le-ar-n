@@ -1,0 +1,51 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<elogtext_registry xmlns="urn:abb-robotics-registry-elog-text">
+<entry domain_no="1" min="2" max="135" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/opr_elogtext_1.xml"/>
+<entry domain_no="1" min="136" max="300" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/opr_elogtext_2.xml"/>
+<entry domain_no="1" min="304" max="2700" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/opr_elogtext_3.xml"/>
+<entry domain_no="2" min="12" max="164" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/sys_elogtext_1.xml"/>
+<entry domain_no="2" min="165" max="392" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/sys_elogtext_2.xml"/>
+<entry domain_no="2" min="393" max="672" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/sys_elogtext_3.xml"/>
+<entry domain_no="3" min="1810" max="2572" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_1.xml"/>
+<entry domain_no="3" min="2573" max="4276" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_2.xml"/>
+<entry domain_no="3" min="4277" max="4334" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_3.xml"/>
+<entry domain_no="3" min="4335" max="4439" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_4.xml"/>
+<entry domain_no="3" min="4440" max="7043" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_5.xml"/>
+<entry domain_no="3" min="7044" max="8209" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_6.xml"/>
+<entry domain_no="3" min="8211" max="8519" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_7.xml"/>
+<entry domain_no="3" min="8520" max="9354" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_8.xml"/>
+<entry domain_no="3" min="9355" max="9700" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/hw_elogtext_9.xml"/>
+<entry domain_no="4" min="1" max="92" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_1.xml"/>
+<entry domain_no="4" min="93" max="222" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_2.xml"/>
+<entry domain_no="4" min="223" max="526" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_3.xml"/>
+<entry domain_no="4" min="527" max="654" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_4.xml"/>
+<entry domain_no="4" min="655" max="774" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_5.xml"/>
+<entry domain_no="4" min="775" max="1428" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_6.xml"/>
+<entry domain_no="4" min="1429" max="1526" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_7.xml"/>
+<entry domain_no="4" min="1527" max="1617" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_8.xml"/>
+<entry domain_no="4" min="1618" max="1717" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_9.xml"/>
+<entry domain_no="4" min="1718" max="1816" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_10.xml"/>
+<entry domain_no="4" min="1817" max="1924" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/arl_elogtext_11.xml"/>
+<entry domain_no="5" min="21" max="193" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/moc_elogtext_1.xml"/>
+<entry domain_no="5" min="194" max="286" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/moc_elogtext_2.xml"/>
+<entry domain_no="5" min="287" max="372" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/moc_elogtext_3.xml"/>
+<entry domain_no="5" min="373" max="452" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/moc_elogtext_4.xml"/>
+<entry domain_no="5" min="453" max="532" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/moc_elogtext_5.xml"/>
+<entry domain_no="7" min="1001" max="1300" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/io_elogtext_1.xml"/>
+<entry domain_no="7" min="1301" max="1411" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/io_elogtext_2.xml"/>
+<entry domain_no="7" min="1412" max="1536" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/io_elogtext_3.xml"/>
+<entry domain_no="7" min="1537" max="1611" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/io_elogtext_4.xml"/>
+<entry domain_no="8" min="1" max="3" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/usr_elogtext_1.xml"/>
+<entry domain_no="9" min="500" max="614" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/safety_elogtext_1.xml"/>
+<entry domain_no="9" min="615" max="686" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/safety_elogtext_2.xml"/>
+<entry domain_no="9" min="687" max="816" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/safety_elogtext_3.xml"/>
+<entry domain_no="9" min="817" max="1038" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/safety_elogtext_4.xml"/>
+<entry domain_no="10" min="0" max="0" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/int_elogtext_1.xml"/>
+<entry domain_no="11" min="4800" max="4814" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/miscproc_elogtext_1.xml"/>
+<entry domain_no="12" min="1" max="21" prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/cfg_elogtext_1.xml"/>
+<titles prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/domain_elogtitles.xml"/>
+<domains prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/elog/elog_domains.xml"/>
+<domains prepath="$PRODUCTS/RobotControl_7.8.0/options/cse/language/" postpath="/cse_elogdomain.xml"/>
+<entry domain_no="17" min="1" max="999" prepath="$PRODUCTS/RobotControl_7.8.0/options/cse/language/" postpath="/cse_elogtext.xml"/>
+<titles prepath="$PRODUCTS/RobotControl_7.8.0/options/cse/language/" postpath="/cse_elogtitles.xml"/>
+</elogtext_registry>

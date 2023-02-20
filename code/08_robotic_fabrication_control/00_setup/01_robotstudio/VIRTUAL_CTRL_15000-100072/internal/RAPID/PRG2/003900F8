@@ -1,0 +1,16 @@
+MODULE Wizard_Data (SYSMODULE)
+    !***************************************************************************
+    !*                             Data for Force control                      *
+    !***************************************************************************
+    
+    ! Used for set the offset of the contact using in CheckContact / Push Pull block
+    ! The robot will be more sensitive of the contact if this value is increased
+
+    PERS num wi_forceoffset:=10;
+
+    ! Used for set the offset of the search process in Insert Hole block
+    ! This parameter can be used if the workpiece is displaced during contact when the robot clamps the workpiece.
+
+    PERS num wi_insertoffset:=5;
+
+ENDMODULE

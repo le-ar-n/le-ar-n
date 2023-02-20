@@ -1,0 +1,4 @@
+            <!-- F-DEVICE Configuration -->
+            <Net name="PNFDevice" visible="true" readonly="false" description="The Internal ProfiSafe F-Device communicates over this network." >
+                
+            </Net>

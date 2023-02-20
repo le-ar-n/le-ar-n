@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<SafetyControllerRobotData version="1.0" xmlns="urn:abb-robotics-safety-controller-robotconfiguration">
+  <Robot robotType="ELBOW" robotTypeName="IRB_15000_0.95_5" dynModelType="ELBOW_NOCOUP_NOBAL">
+    <Joint jointId="1" servoLag="3" servoDelay="2" maxSpeedManualMode="73.303724">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.167899996" />
+        <Kinvec1_dynmodel x="0" y="0" z="0.167899996" />
+        <RigidBodyData mass="4.92999983" cm_1="0" cm_2="-0.0216099992" cm_3="0.0932800025" inertia_11="0.0172760002" inertia_22="0.00970800035" inertia_33="0.0158380009" inertia_12="1.13999999E-06" inertia_13="-1.00999996E-05" inertia_23="-0.000560000015" />
+      </Arm>
+      <Transmission transmJoint="120" rotatingMove="true" motorInertia="9.7826390886111112E-05" />
+      <MeasurementChannel node="1" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="2" servoLag="3" servoDelay="2" maxSpeedManualMode="73.303724">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.0970999971" />
+        <Kinvec1_dynmodel x="0" y="-0.060899999" z="0.0970999971" />
+        <RigidBodyData mass="3.3599999" cm_1="0" cm_2="-0.0679399967" cm_3="0.220300004" inertia_11="0.104099996" inertia_22="0.10729" inertia_33="0.0071899998" inertia_12="6.99999987E-08" inertia_13="2.21299997E-05" inertia_23="-7.0000001E-06" />
+      </Arm>
+      <Transmission transmJoint="-120" rotatingMove="true" motorInertia="9.7826390886111112E-05" />
+      <MeasurementChannel node="2" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="3" servoLag="3" servoDelay="2" maxSpeedManualMode="70.371598">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.444000006" />
+        <Kinvec1_dynmodel x="0" y="0" z="0.444000006" />
+        <RigidBodyData mass="5.17999983" cm_1="0.00581" cm_2="0.0401099995" cm_3="0.00506999996" inertia_11="0.0308139995" inertia_22="0.0240100008" inertia_33="0.0173610002" inertia_12="0.000633999996" inertia_13="0.00282000005" inertia_23="0.003608" />
+      </Arm>
+      <Transmission transmJoint="120" rotatingMove="true" motorInertia="9.7826390886111112E-05" />
+      <MeasurementChannel node="3" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="4" servoLag="3" servoDelay="2" maxSpeedManualMode="92.153487">
+      <Arm>
+        <Kinvec1 x="0" y="0" z="0.109999999" />
+        <Kinvec1_dynmodel x="0.112999998" y="0.060899999" z="0.109999999" />
+        <RigidBodyData mass="3.78999996" cm_1="0.0949900001" cm_2="0.0266800001" cm_3="-0.00156999996" inertia_11="0.0115" inertia_22="0.0518769994" inertia_33="0.0563660003" inertia_12="0.0135439998" inertia_13="0.00123339996" inertia_23="-0.000249289995" />
+      </Arm>
+      <Transmission transmJoint="80" rotatingMove="true" motorInertia="4.062499955625E-05" />
+      <MeasurementChannel node="4" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="5" servoLag="3" servoDelay="2" maxSpeedManualMode="92.153487">
+      <Arm>
+        <Kinvec1 x="0.469999999" y="0" z="0" />
+        <Kinvec1_dynmodel x="0.356999993" y="0.056499999" z="0" />
+        <RigidBodyData mass="4.26000023" cm_1="-0.0083999997" cm_2="-0.045669999" cm_3="0.0329000019" inertia_11="0.0160409994" inertia_22="0.0176509991" inertia_33="0.0151270004" inertia_12="0.000308999995" inertia_13="-0.00141699996" inertia_23="-0.00152599998" />
+      </Arm>
+      <Transmission transmJoint="-80" rotatingMove="true" motorInertia="4.062499955625E-05" />
+      <MeasurementChannel node="5" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <Joint jointId="6" servoLag="3" servoDelay="2" maxSpeedManualMode="134.04143100000002">
+      <Arm>
+        <Kinvec1 x="0.101000004" y="0" z="0.0799999982" />
+        <Kinvec1_dynmodel x="0.101000004" y="-0.056499999" z="0.0799999982" />
+        <RigidBodyData mass="1.03999996" cm_1="-0.0512900017" cm_2="-1.99999995E-05" cm_3="3.9999999E-05" inertia_11="0.00124390004" inertia_22="0.00101040001" inertia_33="0.00101050001" inertia_12="-1.40999998E-06" inertia_13="2.00999989E-06" inertia_23="-4.19999992E-07" />
+      </Arm>
+      <Transmission transmJoint="80" rotatingMove="true" motorInertia="4.062499955625E-05" />
+      <MeasurementChannel node="6" link="1" boardPosition="1" minSquareXYSum="0.2601" maxSquareXYSum="1" />
+    </Joint>
+    <ElbowOffset x="-0.0500000007" y="-0.0500000007" z="0.0500000007" />
+  </Robot>
+  <STOP1 delay="200" cartDecel="1.75999999" />
+</SafetyControllerRobotData>

@@ -1,0 +1,9 @@
+      <StopFunction id="1" emStop="false" mode="Auto" stopType="Category1Stop" name="ProtectiveStop">
+        <PhysicalInput signalName="ProtectiveStop" />
+      </StopFunction>
+      <StopFunction id="2" emStop="true" mode="General" stopType="Category0Stop" name="ExternalEmergencyStop">
+        <PhysicalInput signalName="ExternalEmergencyStopStatus" />
+      </StopFunction>
+      <StopFunction id="3" emStop="true" mode="General" stopType="Category0Stop" name="LocalEmergencyStop">
+        <PhysicalInput signalName="LocalEmergencyStopStatus" />
+      </StopFunction>

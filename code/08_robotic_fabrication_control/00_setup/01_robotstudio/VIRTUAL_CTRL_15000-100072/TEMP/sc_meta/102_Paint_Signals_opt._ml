@@ -1,0 +1,18 @@
+            <!--
+            Declare optional FunctionIOMappings.
+            -->
+            <FuncIOMappings>
+                <Stop0Status                 signalName="fo_Stop0Status" mandatory="false" />
+                <Stop1Status                 signalName="fo_Stop1Status" mandatory="false" />
+                <SafetyControllerOperational signalName="fo_SafetyControllerOperational" mandatory="false" />
+                <ServiceModeActive           signalName="fo_ServiceMode" mandatory="false" />
+                <CommissioningModeActive     signalName="fo_CommissioningMode" mandatory="false"  />
+                <ConfigurationLocked         signalName="fo_ConfigurationLocked" mandatory="false" />
+                <ExtComShutdownReq           signalName="fo_ExtComShutdownReq" mandatory="false" />
+                <ExtComShutdownAck           signalName="fi_ExtComShutdownAck" mandatory="false" />
+				<GeneralStop                 mandatory="false" visible="false"  />
+                <AutoStop                    mandatory="false" visible="false"  />
+                <EnableSwitch                mandatory="false" visible="false" />
+                <DeviceEnable1               mandatory="false" visible="false" />
+                <DeviceEnable2               mandatory="false" visible="false" />
+            </FuncIOMappings>

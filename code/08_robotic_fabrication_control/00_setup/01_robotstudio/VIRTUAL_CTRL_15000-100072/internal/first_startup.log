@@ -1,0 +1,90 @@
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates.cpp, 53	2023-01-26 14:17:26: Starting new log ***********************. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates.cpp, 54	[INFO] Finalize the installation. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1014	Recreate 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/temp/INSTALL'
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1028	[INFO] InstallSystem starts. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1032	[INFO] Create system structures. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1309	[INFO] Building system structure in 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1325	[INFO] Building folders under 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1353	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/controller.rsf'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1397	GetProdsAndFeaturesFromCtrlrsfFile(), got 5 products. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 24 features for product 'RobotControl'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Robots'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'ASI'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Wizard'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1059	[INFO] Get information of product 'RobotControl'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1068	[INFO] Get all features and feature data of product 'RobotControl'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 327	[INFO] Number of features for product 'RobotControl' is 24.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 330	[INFO] Get information for each feature.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 371	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.options.nocat0stop' in file C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/abb.robotics.robotcontrol.rmf.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 371	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.options.safemove.smpnp' in file C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/abb.robotics.robotcontrol.rmf.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 371	[INFO] No KeyValue found for feature 'abb.robotics.robotcontrol.options.addinprepared' in file C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/abb.robotics.robotcontrol.rmf.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1059	[INFO] Get information of product 'RobotOS'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1068	[INFO] Get all features and feature data of product 'RobotOS'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 327	[INFO] Number of features for product 'RobotOS' is 1.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 330	[INFO] Get information for each feature.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 371	[INFO] No KeyValue found for feature 'abb.robotics.robotos' in file C:/Users/saral/AppData/Local/ABB/RobotWare/RobotOS_7.0.1/abb.robotics.robotos.rmf.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1059	[INFO] Get information of product 'Robots'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1068	[INFO] Get all features and feature data of product 'Robots'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 327	[INFO] Number of features for product 'Robots' is 2.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 330	[INFO] Get information for each feature.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1059	[INFO] Get information of product 'ASI'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1068	[INFO] Get all features and feature data of product 'ASI'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 327	[INFO] Number of features for product 'ASI' is 1.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 330	[INFO] Get information for each feature.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1059	[INFO] Get information of product 'Wizard'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1068	[INFO] Get all features and feature data of product 'Wizard'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 304	[INFO] No default selected feature found in file 'C:/Users/saral/AppData/Local/ABB/RobotWare/Wizard_1.5.0/abb.cn.robotics.wizard_1.5.0.rmf'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 327	[INFO] Number of features for product 'Wizard' is 1.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 330	[INFO] Get information for each feature.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1675	[INFO] Product path 'C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1700	[INFO] Product path 'C:/Users/saral/AppData/Local/ABB/RobotWare/RobotOS_7.0.1'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1700	[INFO] Product path 'C:/Users/saral/AppData/Local/ABB/RobotWare/Robots_1.8.0'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1700	[INFO] Product path 'C:/Users/saral/AppData/Local/ABB/RobotWare/ASI_1.0.6'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1700	[INFO] Product path 'C:/Users/saral/AppData/Local/ABB/RobotWare/Wizard_1.5.0'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1722	[WARNING] Failed to get serial number or empty serial number. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1780	[INFO] Generating key.id, writing header.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 2006	[INFO] Generate file 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/system.xml'.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 2035	[WARNING] Unable to get serial number or empty serial number. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1132	All actions done, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 2285	[INFO] Installation is complete. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 879	[INFO] Need to update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 920	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been updated. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 955	[INFO] Failed to get RWI version. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1353	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/controller.rsf'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1397	GetProdsAndFeaturesFromCtrlrsfFile(), got 5 products. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 24 features for product 'RobotControl'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Robots'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'ASI'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Wizard'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1890	[INFO] ResetAddInData status =0.
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1353	GetProdsAndFeaturesFromCtrlrsfFile(), file path = 'C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/controller.rsf'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1397	GetProdsAndFeaturesFromCtrlrsfFile(), got 5 products. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 24 features for product 'RobotControl'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'RobotOS'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Robots'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'ASI'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 1463	GetProdsAndFeaturesFromCtrlrsfFile(), got 1 features for product 'Wizard'. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 850	[INFO] Update prodinfo.xml. 
+D:\Agents\1\_work\548\s\DpUpdates\DpUpdates_i.cpp, 980	[INFO] File C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/prodinfo.xml has been created, status = 0. 

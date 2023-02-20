@@ -1,0 +1,28 @@
+<PreLogic>
+  <Operation optype="INV1" name="PreCL_TestModeStop2">
+    <Resultant opName="res1" sigName="PreCL_TestModeStop1_INT_0" />
+    <Actuator opName="act1" sigName="fi_TestModeStop" />
+  </Operation>
+  <Operation optype="OR1" name="PreCL_TestModeStop3">
+    <Resultant opName="res1" sigName="PreCL_TestModeStop1_INT_1" />
+    <Actuator opName="act1" sigName="fo_ManualFullSpeedMode" />
+    <Actuator opName="act2" sigName="fo_ManualMode" />
+  </Operation>
+  <Operation optype="AND1" name="PreCL_TestModeStop1">
+    <Resultant opName="res1" sigName="PreCL_TestModeStop0_INT_0" />
+    <Actuator opName="act1" sigName="PreCL_TestModeStop1_INT_0" />
+    <Actuator opName="act2" sigName="PreCL_TestModeStop1_INT_1" />
+  </Operation>
+  <Operation optype="INV1" name="PreCL_TestModeStop0">
+    <Resultant opName="res1" sigName="TestModeStop" />
+    <Actuator opName="act1" sigName="PreCL_TestModeStop0_INT_0" />
+  </Operation>
+  <Operation optype="INV1" name="PreCL_StandStillSupervision0">
+    <Resultant opName="res1" sigName="StandStillSupervision" />
+    <Actuator opName="act1" sigName="fi_StandStillSupervision" />
+  </Operation>
+  <Operation optype="INV1" name="PreCL_EnableNonMotionExecution0">
+    <Resultant opName="res1" sigName="EnableNonMotionExecution" />
+    <Actuator opName="act1" sigName="fi_EnableNonMotionExecution" />
+  </Operation>
+</PreLogic>

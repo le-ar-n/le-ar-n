@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SafetyConfiguration version="1.07.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="urn:abb-robotics-safety-controller-configuration"
+    xsi:schemaLocation="urn:abb-robotics-safety-controller-configuration sc_cfg.1.07.00.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema-instance">
+    <ConfigurationSeal checksum=

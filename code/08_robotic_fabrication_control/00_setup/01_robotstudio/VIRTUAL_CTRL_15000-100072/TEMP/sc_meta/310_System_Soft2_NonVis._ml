@@ -1,0 +1,25 @@
+            <!--
+            This part is mainly a help for the configurator.
+            It specifies the direction of mapped signals which are
+            not present anywhere else in the configuration.
+            In particular it is necessary to specify signals with
+            direction "input" as they cannot be mapped to the input
+            area of a device or to an output of the safety app or
+            to a CL Resultant.
+
+            The FuncIOMappings must be declared previously.
+            -->
+
+            <FuncIO name="AutomaticMode"                    direction="input" />
+            <FuncIO name="ManualMode"                       direction="input" />
+
+            <!--
+            The system does not really use these signals in Soft Opmode,
+            but they are defined and RobotStudio needs to know they are
+            to remain. Set them as being written by the system so nobody
+            else can modify them.
+            -->
+            <FuncIO name="ManualIn"                         direction="input"/>
+            <FuncIO name="AutoIn"                           direction="input"/>
+            <FuncIO name="ManualFSIn"                       direction="input"/>
+            <FuncIO name="ManualFullSpeedMode"              direction="input"/>

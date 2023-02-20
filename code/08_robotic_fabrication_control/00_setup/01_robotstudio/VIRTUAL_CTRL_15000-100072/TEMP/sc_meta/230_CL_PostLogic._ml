@@ -1,0 +1,9 @@
+            <PostLogic>
+                <!--
+                Any signal connected to an Actuator shall be equivalent
+                to a mapping to an "Output" area of a SIOS device.
+
+                Any signal connected to an Resultant shall be equivalent
+                to a mapping to an "Input" area of a SIOS device.
+                -->
+            </PostLogic>

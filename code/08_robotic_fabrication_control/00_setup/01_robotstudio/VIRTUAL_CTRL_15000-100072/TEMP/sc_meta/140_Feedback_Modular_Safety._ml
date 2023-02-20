@@ -1,0 +1,36 @@
+<!-- Feedback Configuration -->
+<Net name="Feedback" visible="true" readonly="false" description="Network for sending signals to the MC." >
+
+  <!-- This is the user-configurable feedback interface -->
+  <Device name="SC_Feedback_Dev" inSizeBits="0" outSizeBits="2048" address="" visible="true" readonly="false" description="Device for sending signals to the MC. It is NOT posible to receive signals from the MC." >
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="AutomaticMode" direction="output" width="1" offset="0"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="DriveEnable" direction="output" width="1" offset="1"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="DriveEnableFeedback" direction="output" width="1" offset="2"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="EmergencyStopActivated" direction="output" width="1" offset="3"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="EnableSwitch" direction="output" width="1" offset="4"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="ExternalEmergencyStopStatus" direction="output" width="1" offset="5"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="LocalEmergencyStopStatus" direction="output" width="1" offset="6"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="ManualFullSpeedMode" direction="output" width="1" offset="7"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="ManualMode" direction="output" width="1" offset="8"/>
+    <Signal protected="false" readonly="false" visible="true" default="0" type="BOOL" name="ProtectiveStop" direction="output" width="1" offset="9"/>
+    <Signal protected="false" readonly="false" visible="true" default="1" type="BOOL" name="SafetyEnable" direction="output" width="1" offset="10"/>
+  </Device>
+
+  <!--
+  This is an internal device used for Modular Safety.
+  It is not visible to a user for configuration,
+  allthough the user _can_ see the signals.
+   -->
+  <Device name="ScLocIO" inSizeBits="0" outSizeBits="128" address="" visible="false" readonly="true" description="Internal signals for Modular Safety." >
+    <!-- First add the safe local I/O signals -->
+    <FuncIO name="ExternalEmergencyStopStatus"  offset="0" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="ProtectiveStop"               offset="1" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="EnableSwitch"                 offset="2" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="DeviceEnable1"                offset="3" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="DriveEnableAllowed"           offset="4" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="LocalEmergencyStopStatus"     offset="5" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="DriveEnableFeedback"          offset="6" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="DriveEnable"                  offset="7" width="1" direction="output" visible="false" readonly="true" />
+    <FuncIO name="EmergencyStopActivated"       offset="8" width="1" direction="output" visible="false" readonly="true" />
+  </Device>
+</Net>

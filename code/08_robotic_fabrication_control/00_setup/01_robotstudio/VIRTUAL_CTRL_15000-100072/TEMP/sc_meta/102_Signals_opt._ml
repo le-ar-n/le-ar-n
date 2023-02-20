@@ -1,0 +1,14 @@
+            <!--
+            Declare optional FunctionIOMappings.
+            -->
+            <FuncIOMappings>
+              <Stop0Status                 mandatory="false" description="False if Stop 0 is active." />
+              <Stop1Status                 mandatory="false" description="False if Stop 1 is active." />
+              <SafetyControllerOperational mandatory="false" description="True if the Safety Controller is running without errors." />
+              <ServiceModeActive           mandatory="false" description="True if Service Mode is activated." />
+              <CommissioningModeActive     mandatory="false" description="True if Commissioning Mode is activated." />
+              <ConfigurationLocked         mandatory="false" description="True if the safety configuration is locked."/>
+
+              <ExtComShutdownReq           mandatory="false" description="True if controller is one second from shutting down." />
+              <ExtComShutdownAck           mandatory="false" description="True if PLC is ok with shutdown before one second has passed."/>
+            </FuncIOMappings>

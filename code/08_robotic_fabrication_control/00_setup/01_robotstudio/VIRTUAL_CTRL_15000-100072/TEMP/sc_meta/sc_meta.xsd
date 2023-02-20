@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:abb-robotics-safety-configuration-meta" xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="ConfigurationFile">
+        <complexType>
+            <sequence>
+                <element maxOccurs="unbounded" name="File">
+                    <complexType>
+                        <sequence minOccurs="0">
+                            <element minOccurs="0" maxOccurs="unbounded" name="IfOptionPresent">
+                                <complexType>
+                                    <attribute name="optionString" type="string" use="required" />
+                                </complexType>
+                            </element>
+                            <element minOccurs="0" maxOccurs="unbounded" name="IfOptionAbsent">
+                                <complexType>
+                                    <attribute name="optionString" type="string" use="required" />
+                                </complexType>
+                            </element>
+                            <element minOccurs="0" maxOccurs="unbounded" name="IfFeaturePresent">
+                              <complexType>
+                                <attribute name="featureString" type="string" use="required" />
+                              </complexType>
+                            </element>
+                            <element minOccurs="0" maxOccurs="unbounded" name="IfFeatureAbsent">
+                              <complexType>
+                                <attribute name="featureString" type="string" use="required" />
+                              </complexType>
+                            </element>
+                        </sequence>
+                        <attribute name="name" type="string" use="required" />
+                    </complexType>
+                </element>
+            </sequence>
+            <attribute name="name" type="string" use="required" />
+        </complexType>
+    </element>
+</schema>

@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<option_registry xmlns="urn:abb-robotics-registry-option">
+<entry option="ROBOTS" path="$PRODUCTS/Robots_1.8.0"/>
+<entry option="ASI" path="$PRODUCTS/ASI_1.0.6"/>
+<entry option="Wizard" path="$PRODUCTS/Wizard_1.5.0"/>
+</option_registry>

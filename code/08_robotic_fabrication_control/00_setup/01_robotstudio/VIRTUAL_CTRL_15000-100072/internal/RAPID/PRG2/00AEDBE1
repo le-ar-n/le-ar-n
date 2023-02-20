@@ -1,0 +1,148 @@
+MODULE RRC_Base_DataTask_Rob (SYSMODULE)
+    !***********************************************************************************
+    !
+    ! ETH Zurich / Robotic Fabrication Lab
+    ! HIB C 13 / Stefano-Franscini-Platz 1
+    ! CH-8093 Zurich
+    !
+    !***********************************************************************************
+    !
+    ! PROJECT     :  RRC - Rapid Robot Communication
+    !
+    ! FUNCTION    :  Base Data Task Library  
+    !
+    ! AUTHOR      :  Philippe Fleischmann
+    !
+    ! EMAIL       :  rrc@arch.ethz.ch
+    !
+    ! HISTORY     :  2019.02.22
+    !
+    ! Copyright   :  ETH Zurich (CH) 2019
+    !                - Philippe Fleischmann
+    !                - Michael Lyrenmann
+    !                - Gonzalo Casas
+    !
+    ! License     :  This code base is governed by an EULA (End-User License Agreement)
+    !                which you have received together with the software.
+    !                You are not allowed to use the software on a real robots
+    !                without a signed EULA.
+    !
+    !                A copy of the EULA content is in the controller task (T_CTRL).
+    !
+    !***********************************************************************************
+
+    !************************************************
+    ! Declaration :     num
+    !************************************************
+    !
+    TASK PERS num n_RRC_Answer:=0;
+    TASK PERS num n_RRC_Act_S_ID:=4;
+    TASK PERS num n_RRC_Time:=1;
+    TASK PERS num n_RRC_Acc:=100;
+    TASK PERS num n_RRC_Ramp:=100;
+    TASK PERS num n_RRC_Override:=100;
+    TASK PERS num n_RRC_MaxTCP:=2500;
+    TASK PERS num n_RRC_FloatValue:=42;
+
+    !************************************************
+    ! Declaration :     string
+    !************************************************
+    !
+    TASK PERS string st_RRC_UIAnswer:="Set my Speed";
+    TASK PERS string st_RRC_ActMsg1:="Requested speed is not posible, minimal value is 0.1 mm/s";
+    TASK PERS string st_RRC_ActMsg2:="Submited speed : 0.0 mm/s";
+    TASK PERS string st_RRC_ActMsg3:="";
+    TASK PERS string st_RRC_ActMsg4:="";
+    TASK PERS string st_RRC_ActMsg5:="";
+    TASK PERS string st_RRC_ActBtn1:="50 mm/s";
+    TASK PERS string st_RRC_ActBtn2:="100 mm/s";
+    TASK PERS string st_RRC_ActBtn3:="Set my Speed";
+    TASK PERS string st_RRC_ActBtn4:="";
+    TASK PERS string st_RRC_ActBtn5:="";
+    TASK PERS string st_RRC_Header:="Update Speed";
+    TASK PERS string st_RRC_TPWrite:="Hello LE.AR.N!";
+    TASK PERS string st_RRC_StringValue:="Custom Text";
+
+    !************************************************
+    ! Declaration :     tooldata
+    !************************************************
+    !
+    TASK PERS tooldata t_RRC_Act:=[TRUE,[[0.84733,0,105],[1,0,0,0]],[0.001,[0,0,0.001],[1,0,0,0],0,0,0]];
+    TASK PERS tooldata t_measurement:=[TRUE,[[0.0, -0.0, 109.0],[1,0,0,0]],[0.001,[0,0,0.001],[1,0,0,0],0,0,0]];
+    TASK PERS tooldata t_sgraffito:=[TRUE,[[0.84733000000000003, 0.0, 105.0],[1,0,0,0]],[0.001,[0,0,0.001],[1,0,0,0],0,0,0]];
+    TASK PERS tooldata t_gripper:=[TRUE,[[0.0, 0.0, 150.0],[0.383,0,0,0.924]],[0.001,[0,0,0.001],[1,0,0,0],0,0,0]];
+    
+    !************************************************
+    ! Declaration :     wobjdata
+    !************************************************
+    !
+    TASK PERS wobjdata ob_RRC_Act:=[FALSE,TRUE,"",[[0,0,0],[1,0,0,0]],[[0,0,0],[1,0,0,0]]];
+
+    !************************************************
+    ! Declaration :     speeddata
+    !************************************************
+    !
+    CONST speeddata v_RRC_Default:=[25,500,5000,1000];
+    TASK PERS speeddata v_RRC_Act:=[300,500,5000,1000];
+
+    !************************************************
+    ! Declaration :     zonedata
+    !************************************************
+    !
+    TASK PERS zonedata z_RRC_Act:=[TRUE,0,0,0,0,0,0];
+
+    !************************************************
+    ! Declaration :     jointtarget
+    !************************************************
+    !  
+    TASK PERS jointtarget jp_RRC_Act:=[[-22,-3.73845E-13,-6.10667E-13,-1.19379E-14,-1.11601E-13,4.66322E-13],[9E+9,9E+9,9E+9,9E+9,9E+9,9E+9]];
+
+    !************************************************
+    ! Declaration :     robtarget
+    !************************************************
+    !  
+    TASK PERS robtarget p_RRC_Act:=[[494.736,-12.7388,17.6667],[4.74411E-17,0.774797,-0.63221,-3.87104E-17],[-1,-1,0,0],[9E+9,9E+9,9E+9,9E+9,9E+9,9E+9]];
+
+    !************************************************
+    ! Declaration :     signaldo
+    !************************************************
+    !
+    VAR signaldo do_RRC_Act;
+
+    !************************************************
+    ! Declaration :     signalgo
+    !************************************************
+    !
+    VAR signalgo go_RRC_Act;
+
+    !************************************************
+    ! Declaration :     signalao
+    !************************************************
+    !
+    VAR signalao ao_RRC_Act;
+
+    !************************************************
+    ! Declaration :     signaldi
+    !************************************************
+    !
+    VAR signaldi di_RRC_Act;
+
+    !************************************************
+    ! Declaration :     signalgi
+    !************************************************
+    !
+    VAR signalgi gi_RRC_Act;
+
+    !************************************************
+    ! Declaration :     signalai
+    !************************************************
+    !
+    VAR signalai ai_RRC_Act;
+
+    !************************************************
+    ! Declaration :     signalai
+    !************************************************
+    !
+    VAR clock ck_RRC_StopWatch;
+
+ENDMODULE

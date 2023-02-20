@@ -1,0 +1,47 @@
+%%%
+    VERSION:1
+    LANGUAGE:ENGLISH
+%%%
+
+MODULE CAL_WRIST(SYSMODULE,VIEWONLY)
+    ! $Revision: 1.0 $
+    !
+    ! Wrist Optimization
+    !
+    
+	LOCAL VAR bool WO_loaded := FALSE;
+    
+	PROC WristOptimization()
+        VAR num TPReadDummy;
+        VAR num answer;
+        
+        IF WO_loaded = FALSE THEN
+            Load \Dynamic, "RELEASE:/system/calwrist_proc.sys";
+            WO_loaded:=TRUE;
+        ENDIF
+        %"WristOptProc"%;
+        UnLoad "RELEASE:/system/calwrist_proc.sys";
+        WO_loaded:=FALSE;
+        TPShow TP_LATEST;
+        RETURN;
+        
+        ERROR
+        TEST ERRNO
+            CASE ERR_FILNOTFND:
+                RAISE;
+            CASE ERR_LOADED:
+                SkipWarn;
+                TRYNEXT;
+            default:
+                TPShow TP_LATEST;
+        ENDTEST
+    UNDO
+        IF WO_loaded THEN
+            UnLoad "RELEASE:/system/calwrist_proc.sys";
+            WO_loaded:=FALSE;
+        ENDIF
+        TPShow TP_LATEST;
+    ENDPROC  
+ ENDMODULE
+
+

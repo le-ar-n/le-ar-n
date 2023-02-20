@@ -1,0 +1,4 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<rw_services_registry>
+<rw_services prepath="$PRODUCTS/RobotControl_7.8.0/system/" postpath="rw_services.xml"/>
+</rw_services_registry>

@@ -1,0 +1,12 @@
+<PostLogic>
+  <Operation optype="OR1" name="PostCL_fo_EnablingDevice1">
+    <Resultant opName="res1" sigName="PostCL_fo_EnablingDevice0_INT_0" />
+    <Actuator opName="act1" sigName="fo_ManualMode" />
+    <Actuator opName="act2" sigName="ManualFullSpeedMode" />
+  </Operation>
+  <Operation optype="AND1" name="PostCL_fo_EnablingDevice0">
+    <Resultant opName="res1" sigName="fo_EnablingDevice" />
+    <Actuator opName="act1" sigName="DriveEnableFeedback" />
+    <Actuator opName="act2" sigName="PostCL_fo_EnablingDevice0_INT_0" />
+  </Operation>
+</PostLogic>

@@ -1,0 +1,26 @@
+            <!--
+            Declare Signals.
+
+            Default values are visible="true" and readonly="false".
+            It is OK to declare the same signal several times, as long as the
+            type and default values are the same.
+            The type and default is optional on subsequent declarations.
+            -->
+            <Signal name="SafetyEnable"                     type="BOOL" default="1" visible="true"  readonly="false" description="Must be true to enable safety functions. If false then DriveEnable will also be set to false." />
+
+            <Signal name="AutomaticMode"                    type="BOOL" default="0" visible="true"  readonly="false" description="True if Automatic mode is selected." />
+            <Signal name="ManualMode"                       type="BOOL" default="0" visible="true"  readonly="false" description="True if Manual mode is selected." />
+            <Signal name="ManualFullSpeedMode"              type="BOOL" default="0" visible="true"  readonly="false" description="True if Manual Full Speed mode is selected." />
+
+            <Signal name="DriveEnable"                      type="BOOL" default="0" visible="true"  readonly="false" description="True if the safety controller enables power to the actuators." />
+            <Signal name="DriveEnableFeedback"              type="BOOL" default="0" visible="true"  readonly="false" description="True if the Run Chain is closed." />
+
+            <Signal name="LocalEmergencyStopStatus"         type="BOOL" default="0" visible="true"  readonly="false" description="False if the emergency stop, for example on the FlexPendant, is pressed." />
+
+            <Signal name="ExternalEmergencyStopStatus"      type="BOOL" default="0" visible="true"  readonly="false" description="Optional safe input on GPIO_IN1. " />
+            <Signal name="EmergencyStopActivated"           type="BOOL" default="0" visible="true"  readonly="false" description="Onput on GPIO_OUT2. " />
+            <Signal name="ProtectiveStop"                   type="BOOL" default="0" visible="true"  readonly="false" description="Protective stop in automatic mode on GPIO_IN2." />
+            <Signal name="EnableSwitch"                     type="BOOL" default="0" visible="true"  readonly="false" description="Enable switch status on GPIO_IN4." />
+
+            <Signal name="DeviceEnable1"                    type="BOOL" default="0" visible="false"  readonly="false" description="Set by the MC." />
+            <Signal name="DriveEnableAllowed"               type="BOOL" default="0" visible="false"  readonly="false" description="Set by the SC." />

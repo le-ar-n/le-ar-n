@@ -1,0 +1,5 @@
+<?xml version = "1.0" encoding="utf-8" ?>
+<devices_registry xmlns="urn:abb-robotics-registry-devices">
+<struct prepath="$PRODUCTS/RobotControl_7.8.0/rules/devices/" postpath="sys_devices_struct.xml"/>
+<text prepath="$PRODUCTS/RobotControl_7.8.0/language/install/../" postpath="/controller/devices/sys_devices_text.xml"/>
+</devices_registry>

@@ -1,0 +1,522 @@
+07:53:30:361000 Status 0 from startup_log
+Begin system startup
+07:53:30:361000 Status 0 from echo
+07:57:29:391000 Status 0 from invoke2 s17_initialize
+07:57:38:21000 Status 0 from invoke AxcHal_InitModule
+07:57:42:21000 Status 0 from invoke AxcHal_StartModule
+07:57:46:21000 Status 0 from delay
+C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/TEMP has been mounted.
+07:57:54:906000 Status 0 from baseinit
+Goto to label: NO_ASCII_LOG
+07:57:54:906000 Status 0 from getkey ASCIILogMedia
+07:57:54:919000 Status 0 from uprobe_init
+07:57:54:968000 Status 0 from debug_service_base_init
+07:57:54:970000 Status 0 from invoke S33_01_create
+07:57:55:148000 Status 0 from S33_01_init
+07:57:57:11000 Status 0 from invoke AxcServoControl_InitModule
+Goto to label: VC_MCHEXCEPTION_SKIP
+07:57:57:11000 Status 0 from ifvc VC_MCHEXCEPTION_SKIP
+07:57:57:15000 Status 0 from invoke S98_01_create
+07:58:02:10000 Status 0 from S98_01_init
+08:02:32:211000 Status 0 from invoke scinit_load_and_start_safety_controller
+Goto to label: VC_SEP_SKIP
+08:02:32:211000 Status 0 from ifvc VC_SEP_SKIP
+Goto to label: VC_CS_SKIP
+08:02:32:211000 Status 0 from ifvc VC_CS_SKIP
+Goto to label: VC_SKIP_FIRMWARE_UPGRADE
+08:02:32:211000 Status 0 from ifvc VC_SKIP_FIRMWARE_UPGRADE
+08:02:32:294000 Status 0 from bb_populate
+08:02:32:466000 Status 0 from bb_populate
+08:02:32:608000 Status 0 from bb_populate
+08:02:32:608000 Status 0 from bb_populate
+08:02:32:608000 Status 0 from bb_populate
+08:02:32:651000 Status 0 from bb_populate
+08:02:32:712000 Status 0 from bb_populate
+08:02:32:789000 Status 0 from bb_populate
+08:02:32:789000 Status 0 from bb_populate
+08:02:32:789000 Status 0 from bb_populate
+08:02:32:789000 Status 0 from bb_populate
+08:02:32:789000 Status 0 from bb_populate
+08:03:04:718000 Status 0 from sysdmp_init
+08:03:07:711000 Status 0 from task 
+08:03:07:791000 Status 0 from debug_service_init
+08:03:07:791000 Status 0 from sysdmp_add
+08:03:07:791000 Status 0 from sysdmp_add
+08:03:07:791000 Status 0 from sysdmp_add
+08:03:07:791000 Status 0 from sysdmp_add
+08:03:07:791000 Status 0 from sysdmp_add
+08:03:07:791000 Status 0 from sysdmp_add
+08:03:07:791000 Status 0 from sysdmp_add
+Goto to label: NO_WVLOG
+08:03:07:791000 Status 0 from ifvc NO_WVLOG
+Goto to label: NO_ETHCAP
+08:03:07:791000 Status 0 from ifvc NO_ETHCAP
+08:03:09:750000 Status 0 from task 
+08:03:09:756000 Status 0 from synchronize task
+08:03:09:756000 Status 0 from go task
+08:03:12:575000 Status 0 from task 
+08:03:15:498000 Status 0 from task 
+08:03:18:140000 Status 0 from task 
+Goto to label: VC_NO_CLOCK_PROBE
+08:03:18:140000 Status 0 from ifvc VC_NO_CLOCK_PROBE
+
+23-02-20  09:45:16 MC0: type = STATE_CHANGE id = Operational code = 45 (10045)
+
+08:03:18:184000 Status 0 from basenew
+Base services started
+08:03:18:184000 Status 0 from echo
+Goto to label: VC_NO_REMOTE_DIAGNOSTIC
+08:03:18:184000 Status 0 from ifvc VC_NO_REMOTE_DIAGNOSTIC
+08:03:18:184000 Status 0 from S98_01_new
+08:03:18:184000 Status 0 from direxist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/TEMP/rw_trash
+Goto to label: NEXT_STEP
+08:03:18:184000 Status 0 from goto NEXT_STEP
+Initializing system interrupts
+08:03:18:184000 Status 0 from print
+08:03:19:556000 Status 0 from invoke AxcServoControl_StartModule
+08:03:22:556000 Status 0 from delay
+Goto to label: VC_NO_MC_SEP_UPGRADE
+08:03:22:556000 Status 0 from ifvc VC_NO_MC_SEP_UPGRADE
+Goto to label: VC_NO_MC_CS_UPGRADE
+08:03:22:556000 Status 0 from ifvc VC_NO_MC_CS_UPGRADE
+Goto to label: VC_NO_MC_FPGA_UPGRADE
+08:03:22:556000 Status 0 from ifvc VC_NO_MC_FPGA_UPGRADE
+08:03:22:589000 Status 0 from invoke fciInit
+08:03:22:838000 Status 0 from init eio
+08:03:22:838000 Status 0 from invoke internalBusDrv
+08:03:23:920000 Status 0 from task 
+08:03:25:136000 Status 0 from task 
+08:03:25:140000 Status 0 from invoke incInstallDriver
+Goto to label: LOAD_CMD
+08:03:25:815000 Status 0 from fileexist C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/enms/en_base.cmd
+
+Script begin: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/enms/en_base.cmd
+08:03:25:815000 Status 0 from sysdmp_add
+08:03:27:485000 Status 0 from task 
+08:03:28:760000 Status 0 from task 
+08:03:29:627000 Status 0 from task 
+08:03:29:627000 Status 0 from invoke incInstallDriver
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/enms/en_base.cmd
+08:03:29:627000 Status 0 from include 
+Goto to label: NO_BONJOUR_DAEMON
+08:03:29:627000 Status 0 from ifvc NO_BONJOUR_DAEMON
+08:03:29:637000 Status 0 from invoke2 init_mempools
+08:03:30:236000 Status 0 from task 
+08:03:31:4000 Status 0 from task 
+08:03:32:472000 Status 0 from task 
+08:03:33:983000 Status 0 from task 
+08:03:35:12000 Status 0 from task 
+Starting features - phase 1 of 5
+08:03:35:12000 Status 0 from echo
+Goto to label: LOAD_CMD
+08:03:35:635000 Status 0 from fileexist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l0.cmd
+
+Script begin: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l0.cmd
+
+Script begin: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/sc/ScInc_opt.cmd
+Starting ScIncTasks and installs the driver/networks
+08:03:36:253000 Status 0 from echo
+08:03:38:185000 Status 0 from task 
+08:03:39:752000 Status 0 from task 
+08:03:39:752000 Status 0 from invoke incInstallDriver
+End of ScIncTasks installation
+08:03:39:752000 Status 0 from echo
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/sc/ScInc_opt.cmd
+08:03:39:752000 Status 0 from include End of ScIncTasks installation
+Script end: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l0.cmd
+08:03:39:752000 Status 0 from include End of ScIncTasks installation
+08:03:39:752000 Status 0 from init sio
+08:03:40:516000 Status 0 from init motion
+08:03:40:882000 Status 0 from init rol
+08:03:40:980000 Status 0 from init cab
+08:03:40:980000 Status 0 from init bar
+08:03:40:991000 Status 0 from init pgmrun
+08:03:41:38000 Status 0 from init rapid
+08:03:41:49000 Status 0 from init puscfg
+08:03:41:49000 Status 0 from invoke sdlog_init
+08:03:43:839000 Status 0 from task 
+Goto to label: VC_CABSUPTS_SKIP
+08:03:43:839000 Status 0 from ifvc VC_CABSUPTS_SKIP
+08:03:43:873000 Status 0 from invoke2 sevt_safety_init
+08:03:43:873000 Status 0 from invoke2 scsafIntBusInit
+08:03:43:890000 Status 0 from invoke2 epanel_device_init
+08:03:43:890000 Status 0 from invoke2 axc_brd_create_IntBusDrvSys
+08:03:44:972000 Status 0 from task 
+08:03:46:668000 Status 0 from task 
+08:03:48:257000 Status 0 from task 
+08:03:49:920000 Status 0 from task 
+08:03:51:576000 Status 0 from task 
+08:03:52:986000 Status 0 from reconfigure eio
+08:03:52:986000 Status 0 from reconfigure sio
+08:03:55:92000 Status 0 from task 
+08:03:56:549000 Status 0 from task 
+08:03:57:989000 Status 0 from task 
+08:03:59:383000 Status 0 from task 
+08:04:00:620000 Status 0 from task 
+08:04:02:44000 Status 0 from task 
+08:04:02:491000 Status 0 from task 
+08:04:03:916000 Status 0 from task 
+08:04:05:316000 Status 0 from task 
+08:04:06:704000 Status 0 from task 
+08:04:08:80000 Status 0 from task 
+08:04:09:464000 Status 0 from task 
+08:04:10:825000 Status 0 from task 
+08:04:12:147000 Status 0 from task 
+08:04:13:519000 Status 0 from task 
+08:04:14:854000 Status 0 from task 
+08:04:16:142000 Status 0 from task 
+08:04:17:432000 Status 0 from task 
+08:04:18:679000 Status 0 from task 
+08:04:19:620000 Status 0 from task 
+08:04:20:712000 Status 0 from task 
+08:04:21:958000 Status 0 from task 
+08:04:22:980000 Status 0 from task 
+08:04:22:986000 Status 0 from task 
+08:04:24:168000 Status 0 from task 
+08:04:25:332000 Status 0 from task 
+08:04:26:446000 Status 0 from task 
+Goto to label: VC_AXC_SKIP
+08:04:26:446000 Status 0 from ifvc VC_AXC_SKIP
+08:04:27:611000 Status 0 from task 
+08:04:28:538000 Status 0 from task 
+08:04:29:623000 Status 0 from task 
+08:04:30:743000 Status 0 from task 
+08:04:31:819000 Status 0 from task 
+08:04:32:863000 Status 0 from task 
+08:04:33:912000 Status 0 from task 
+08:04:34:937000 Status 0 from task 
+08:04:35:965000 Status 0 from task 
+08:04:37:24000 Status 0 from task 
+08:04:37:795000 Status 0 from task 
+08:04:38:655000 Status 0 from task 
+08:04:39:667000 Status 0 from task 
+08:04:40:583000 Status 0 from task 
+08:04:41:511000 Status 0 from task 
+08:04:42:496000 Status 0 from task 
+08:04:42:951000 Status 0 from task 
+08:04:43:912000 Status 0 from task 
+08:04:44:880000 Status 0 from task 
+08:04:45:839000 Status 0 from task 
+08:04:46:808000 Status 0 from task 
+08:04:47:671000 Status 0 from task 
+08:04:48:387000 Status 0 from task 
+08:04:49:317000 Status 0 from task 
+08:04:50:255000 Status 0 from task 
+08:04:51:185000 Status 0 from task 
+08:04:52:86000 Status 0 from task 
+Waiting for task group 1 to start
+08:04:52:87000 Status 0 from print
+08:04:52:93000 Status 0 from synchronize task
+08:04:52:593000 Status 0 from delay
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Rapi-Subscription running on slot: 205
+08:04:52:593000 Status 0 from go task
+Goto to label: VC_AXC_SKIP
+08:04:52:593000 Status 0 from ifvc VC_AXC_SKIP
+Starting features - phase 2 of 5
+08:04:52:593000 Status 0 from echo
+Goto to label: LOAD_CMD
+08:04:52:673000 Status 0 from fileexist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/option.cmd
+
+Script begin: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/option.cmd
+
+Script begin: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/udpuc/startup.cmd
+08:04:53:646000 Status 0 from task 
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/udpuc/startup.cmd
+08:04:53:647000 Status 0 from include 
+
+Script begin: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/sc/scopt.cmd
+08:04:53:913000 Status 0 from sysdmp_add
+08:04:53:913000 Status 0 from sysdmp_add
+08:04:53:913000 Status 0 from sysdmp_add
+08:04:53:913000 Status 0 from sysdmp_add
+Starting Safety Controller orchestrator
+08:04:53:913000 Status 0 from echo
+  Cpu1 in state ready
+08:04:54:668000 Status 0 from task 
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/sc/scopt.cmd
+08:04:54:668000 Status 0 from include 
+Script end: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/option.cmd
+08:04:54:668000 Status 0 from include 
+Starting motion system
+08:04:54:668000 Status 0 from echo
+Simulated moc_io.
+STATMATS. New motion_planner: motion_planner_1
+STATMATS. New motion_planner: motion_planner_2
+STATMATS. New motion_planner: motion_planner_3
+STATMATS. New motion_planner: motion_planner_4
+STATMATS. New motion_planner: motion_planner_5
+STATMATS. New motion_planner: motion_planner_6
+STATMATS. New motion_planner: motion_planner_7
+SISMA_BS_INFO 41152
+08:04:55:988000 Status 0 from new motion
+08:04:57:488000 Status 0 from delay
+08:04:57:488000 Status 0 from connect_dependings SYS_STORED_OBJ_CAB
+08:04:57:488000 Status 0 from if SYNCROB
+Goto to label: NOSYNC
+08:04:57:488000 Status 0 from goto NOSYNC
+Waiting for motion system to start
+08:04:57:488000 Status 0 from echo
+08:04:57:494000 Status 0 from synchronize task
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+08:04:57:494000 Status 0 from go task
+Synchronizing industrial networks
+08:04:57:494000 Status 0 from echo
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+08:04:57:494000 Status 0 from io_synchronize
+Goto to label: VIRTIOTS_RUN
+08:04:57:494000 Status 0 from ifvc VIRTIOTS_RUN
+08:04:57:767000 Status 0 from task 
+Starting RAPID system
+08:04:57:767000 Status 0 from echo
+08:04:57:768000 Status 0 from invoke rldryrun_start
+08:04:57:772000 Status 0 from invoke rlcyclic_start
+08:04:57:774000 Status 13 from invoke rlvisualize_start
+08:04:57:774000 Status 0 from invoke rldata_init
+------------number_of_tasks 5 
+------------number_of_tasks 5 
+------------number_of_tasks 5 
+------------number_of_tasks 5 
+------------number_of_tasks 5 
+08:04:58:296000 Status 0 from new rapid
+Starting features - phase 3 of 5
+08:04:58:296000 Status 0 from echo
+08:04:58:296000 Status 0 from fileexist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l1.cmd
+Goto to label: NEXT_STEP
+08:04:58:296000 Status 0 from goto NEXT_STEP
+
+23-02-20  09:45:18 SC CPUA: type = WARNING id = Safety code = 526 (90526)
+
+
+23-02-20  09:45:18 SC CPUA: type = WARNING id = Safety code = 543 (90543)
+arg 0: 1 
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 10 (10010)
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 17 (10017)
+
+08:05:03:544000 Status 0 from new cab
+Starting communication services
+08:05:03:544000 Status 0 from echo
+08:05:03:544000 Status 0 from invoke2 set_max_allowed_robapi_wan_connections
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 2 (10002)
+arg 0: 1 arg 1: 0 
+arg 2: SC_CBC
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+arg 0: 1 
+arg 1: SC_CBC
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 155 (10155)
+arg 0: 2 
+arg 1: T_ROB1
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 155 (10155)
+arg 0: 3 
+arg 1: T_CTRL
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 155 (10155)
+arg 0: 4 
+arg 1: T_RX
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 155 (10155)
+arg 0: 5 
+arg 1: T_TX
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 1 
+arg 1: SC_CBC
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 3 
+arg 1: T_CTRL
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 4 
+arg 1: T_RX
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 5 
+arg 1: T_TX
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 129 (10129)
+arg 0: 2 
+arg 1: T_ROB1
+
+
+23-02-20  09:45:19 MC0: type = STATE_CHANGE id = Operational code = 150 (10150)
+arg 0: 1 
+arg 1: SC_CBC
+
+08:05:03:616000 Status 0 from task 
+08:05:03:736000 Status 0 from task 
+08:05:03:856000 Status 0 from task 
+08:05:03:976000 Status 0 from task 
+robcmdts ipc connected 
+08:05:04:87000 Status 0 from task 
+robayats started 
+08:05:04:200000 Status 0 from task 
+08:05:04:316000 Status 0 from task 
+08:05:04:436000 Status 0 from task 
+08:05:04:552000 Status 0 from task 
+08:05:04:668000 Status 0 from task 
+08:05:04:784000 Status 0 from task 
+08:05:04:904000 Status 0 from task 
+08:05:04:908000 Status 0 from invoke2 init_opcua_mempools
+08:05:05:16000 Status 0 from task 
+Starting features - phase 4 of 5
+08:05:05:16000 Status 0 from echo
+Goto to label: LOAD_CMD
+08:05:05:80000 Status 0 from fileexist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l2.cmd
+
+Script begin: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l2.cmd
+
+Script begin: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/udpuc/opt_udpuc.cmd
+08:05:05:124000 Status 0 from invoke2 udpuc_reconfig
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/options/udpuc/opt_udpuc.cmd
+08:05:05:124000 Status 0 from include 
+Script end: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l2.cmd
+08:05:05:124000 Status 0 from include 
+08:05:05:212000 Status 0 from task 
+Goto to label: NETSCANSKIP
+08:05:05:212000 Status 0 from ifvc NETSCANSKIP
+Finalizing RAPID system
+08:05:05:212000 Status 0 from echo
+08:05:05:218000 Status 0 from synchronize task
+08:05:05:218000 Status 0 from rapid_startup_ready
+08:05:05:218000 Status 0 from cab_startup_ready
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+Message (cmd/msgType: 299/3) received from sid: 0
+robayats synchronized (running) 
+Message (cmd/msgType: 299/3) received from sid: 0
+08:05:05:218000 Status 0 from go task
+Goto to label: VTSPEED
+08:05:05:218000 Status 0 from ifvc VTSPEED
+08:05:05:218000 Status 0 from invoke VTSetSpeed
+Starting features - phase 1 of 5
+08:05:05:218000 Status 0 from echo
+Message (cmd/msgType: 299/3) received from sid: 0
+08:05:05:218000 Status 0 from fileexist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/opt_l3.cmd
+Message (cmd/msgType: 299/3) received from sid: 0
+Goto to label: NEXT_STEP
+08:05:05:218000 Status 0 from goto NEXT_STEP
+08:05:05:218000 Status 0 from upgrade_warm_start_completed
+08:05:05:218000 Status 0 from unofficial_rw_notification
+Task OPCUAEntryFunc is about to terminate but is registered in Virtual Time. The task will remain in sleeping state
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status -1 from sysdmp_add
+ ... will continue!
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+Goto to label: NEXT_STEP
+08:05:05:218000 Status 0 from goto NEXT_STEP
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+08:05:05:218000 Status 0 from sysdmp_trigger_add
+robcmdts setup active interfaces and ports 
+robcmdts setup certificate store
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add_logfile
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from sysdmp_add
+08:05:05:218000 Status 0 from invoke fpevent_init
+08:05:05:218000 Status 0 from invoke fpcmd_init
+08:05:05:218000 Status 0 from invoke fpconsole_init
+08:05:05:218000 Status 0 from invoke fpdbg_init
+08:05:05:218000 Status 0 from invoke fpdevices_init
+08:05:05:218000 Status 0 from systemrun
+System started
+08:05:05:218000 Status 0 from echo
+08:05:05:218000 Status 0 from fileexist C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/internal/post_startup_action.cmd
+Goto to label: NO_POST_ACTION
+08:05:05:218000 Status 0 from goto NO_POST_ACTION
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/system/startup_with_axc.cmd
+08:05:05:218000 Status 0 from include NO_POST_ACTION
+Goto to label: END
+08:05:05:218000 Status 0 from goto END
+Script end: C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/system/startup.cmd

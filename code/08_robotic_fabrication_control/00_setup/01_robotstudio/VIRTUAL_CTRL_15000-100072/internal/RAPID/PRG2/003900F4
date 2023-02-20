@@ -1,0 +1,18 @@
+MODULE TorqueSensorCalib(SYSMODULE,NOSTEPIN)
+
+    PROC TorqueSensorCal()
+        Load \Dynamic, "RELEASE:/system/Trq_Sens_Calib_Main.sysx";
+        %":TrqSensCalMain"%;
+        UnLoad "RELEASE:/system/Trq_Sens_Calib_Main.sysx";
+    ERROR
+        TEST ERRNO
+        CASE ERR_FILNOTFND:
+            RAISE ;
+        CASE ERR_LOADED:
+            TRYNEXT;
+        DEFAULT:
+            TRYNEXT;
+        ENDTEST
+    ENDPROC    
+    
+ENDMODULE

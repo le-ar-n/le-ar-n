@@ -1,0 +1,16 @@
+            <!--
+            This part is mainly a help for the configurator.
+            It specifies the direction of mapped signals which are
+            not present anywhere else in the configuration.
+            In particular it is necessary to specify signals with
+            direction "input" as they cannot be mapped to the input
+            area of a device or to an output of the safety app or
+            to a CL Resultant.
+
+            The FuncIOMappings must be declared previously.
+            -->
+
+            <FuncIO name="AutomaticMode"                    direction="input" />
+            <FuncIO name="ManualMode"                       direction="input" />
+            <FuncIO name="ManualFullSpeedMode"              direction="input" />
+

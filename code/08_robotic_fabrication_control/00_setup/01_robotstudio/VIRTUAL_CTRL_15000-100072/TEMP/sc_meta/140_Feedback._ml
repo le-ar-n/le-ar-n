@@ -1,0 +1,5 @@
+            <!-- Feedback Configuration -->
+            <Net name="Feedback" visible="true" readonly="false" description="Network for sending signals to the MC." >
+                <Device name="SC_Feedback_Dev" inSizeBits="0" outSizeBits="2048" address="" visible="true" readonly="false" description="Device for sending signals to the MC. It is NOT posible to receive signals from the MC." >
+                </Device>
+            </Net>
