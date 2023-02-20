@@ -1,5 +1,0 @@
-<?xml version = "1.0" encoding="utf-8" ?>
-<hw_compatibility_registry xmlns="urn:abb-robotics-registry-hw-compatibility">
-<hw_compatibility prepath="C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/firmware/" postpath="hw_compatibility_S40_1.xml"/>
-<hw_compatibility prepath="C:/Users/saral/AppData/Local/ABB/RobotWare/RobotControl_7.8.0/firmware/" postpath="hw_compatibility.xml"/>
-</hw_compatibility_registry>

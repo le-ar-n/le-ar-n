@@ -1,1 +1,0 @@
-            <Signal name="ProtectiveStop2"                  type="BOOL" default="0" visible="true"  readonly="false" description="Protective stop in automatic mode on GPIO_IN5." />

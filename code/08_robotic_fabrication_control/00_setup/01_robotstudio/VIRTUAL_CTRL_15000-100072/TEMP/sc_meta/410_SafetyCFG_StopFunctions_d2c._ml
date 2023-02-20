@@ -1,3 +1,0 @@
-      <StopFunction id="4" emStop="false" mode="General" stopType="Category1Stop" name="ProtectiveStop2">
-	    <PhysicalInput signalName="ProtectiveStop2" />
-      </StopFunction>

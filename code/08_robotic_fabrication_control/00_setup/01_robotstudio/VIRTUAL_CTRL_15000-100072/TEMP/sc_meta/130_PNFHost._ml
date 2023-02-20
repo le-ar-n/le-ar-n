@@ -1,3 +1,0 @@
-            <!-- F-HOST Configuration -->
-            <Net name="PNFHost" visible="true" readonly="false" description="The ProfiSafe F-Host communicates over this network." >
-            </Net>
