@@ -78,3 +78,13 @@ Image lost in previous shutdown: no
 CFG counter value  :  8722
 Unfinished crit sec:  0
 
+*** PF INFO ***
+Time     : Mon Feb 20 14:12:50 2023
+System   : C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072
+RobotWare: 7.8.0
+RobotControl: 7.8.0
+Shutdown type: 1 mode: 1 reason: 1 
+Image lost in previous shutdown: no
+CFG counter value  :  8831
+Unfinished crit sec:  0
+
