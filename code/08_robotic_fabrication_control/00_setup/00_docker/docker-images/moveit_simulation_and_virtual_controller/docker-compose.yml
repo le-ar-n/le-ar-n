@@ -44,21 +44,24 @@ services:
     environment:
       - ROS_HOSTNAME=abb-demo
       - ROS_MASTER_URI=http://ros-master:11311
-      - DISPLAY=gui:0.0
+      # GUI: To forward the GUI to an external X11 server (eg. XMing), uncomment the following line
+      - DISPLAY=host.docker.internal:0.0
     depends_on:
       - ros-master
-      - gui
     command:
       - roslaunch
       - --wait
       - abb_crb15000_5_95_moveit_config
       - demo.launch
+      # To launch the RVIZ GUI, change the following to true
+      - use_rviz:=true
+      - pipeline:=ompl
 
-  gui:
-    image: gramaziokohler/novnc:latest
-    container_name: abb-crb15000-gui
-    ports:
-      - "8080:8080"
+  # gui:
+  #   image: gramaziokohler/novnc:latest
+  #   container_name: abb-crb15000-gui
+  #   ports:
+  #     - "8080:8080"
 
 
   abb-driver-1:
