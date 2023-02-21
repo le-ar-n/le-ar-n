@@ -1,0 +1,109 @@
+#
+# Generated backup file, do not edit.
+#
+# Originally at: C:/Users/saral/OneDrive/Documents/RobotStudio/Virtual Controllers/VIRTUAL_CTRL_15000-100072/TEMP/backup.082991
+# 2023-02-21  11:07:39
+#
+>>SYSTEM_ID:
+VIRTUAL_CONTROLLER
+
+>>PRODUCTS_ID:
+RobotControl Version: 7.8.0
+RobotOS Version: 7.0.1
+Robots Version: 1.8.0
+ASI Version: 1.0.6
+Wizard Version: 1.5.0
+
+  UDPUC Driver
+  Leadthrough
+  No Category 0
+  Safe Move Plug and Play
+  English
+  3121-1 RW Add-In Prepared
+  3150-1 Collision Avoidance
+  3107-1 Collision Detection
+  3024-2 EtherNet/IP Adapter
+  3024-1 EtherNet/IP Scanner
+  3120-2 FlexPendant Essential App Package
+  3151-1 FlexPendant Program Package
+  3038-1 Force Control Interface
+  3044-2 Keyless Mode Switch, 2 modes
+  3114-1 Multitasking
+  3113-1 Path Recovery
+  3119-1 RobotStudio Connect
+  3043-3 SafeMove Collaborative
+  3106-1 World Zones
+  RobotControl Base
+  3124-1 Externally Guided Motion (EGM)
+  Motor Commutation
+  Service Info System
+  C30-D7 for CRB 15000
+  CRB 15000-5/0.95
+  ASI
+  Wizard
+
+>>HOME:
+All public files and directories
+
+>>SYSPAR:
+SYS.cfg
+SIO.cfg
+PROC.cfg
+MMC.cfg
+MOC.cfg
+EIO.cfg
+
+
+
+>>TASK2: (T_ROB1,Wizard,)
+SYSMOD/GOFA_ASI_Procedures.sysx @ 
+PROGMOD/Wizard_LoadData.modx @ 
+SYSMOD/RRC_DataRecord.sysx @ 
+SYSMOD/RRC_Base_DataTask_Rob.sysx @ 
+SYSMOD/RRC_UserInteraction_Rob.sysx @ 
+SYSMOD/RRC_Helper_Rob.sysx @ 
+SYSMOD/RRC_DataTask_Rob.sysx @ 
+SYSMOD/RRC_Control_Rob.sysx @ 
+SYSMOD/RRC_Base_Utilities_Rob.sysx @ 
+SYSMOD/RRC_Base_Instructions_Rob.sysx @ 
+SYSMOD/RRC_Base_Feedback_Rob.sysx @ 
+SYSMOD/RRC_DataGlobal.sysx @ 
+SYSMOD/Wizard_Params.sysx @ 
+PROGMOD/RRC_Main.modx @ 
+
+>>TASK3: (T_CTRL,,)
+SYSMOD/RRC_DataRecord.sysx @ 
+SYSMOD/RRC_UserInteraction.sysx @ 
+PROGMOD/RRC_Main.modx @ 
+SYSMOD/RRC_Helper_Ctrl.sysx @ 
+SYSMOD/RRC_EULA_Ctrl.sysx @ 
+SYSMOD/RRC_DataTask_Ctrl.sysx @ 
+SYSMOD/RRC_DataGlobal_Ctrl.sysx @ 
+SYSMOD/RRC_Control_Ctrl.sysx @ 
+SYSMOD/RRC_Base_Instructions_Ctrl.sysx @ 
+SYSMOD/RRC_Base_Feedback_Ctrl.sysx @ 
+SYSMOD/RRC_Config_Ctrl.sysx @ 
+
+>>TASK4: (T_RX,,)
+SYSMOD/RRC_Receiver_Rx.sysx @ 
+SYSMOD/RRC_Log_Rx.sysx @ 
+SYSMOD/RRC_DataTask_Rx.sysx @ 
+SYSMOD/RRC_Control_Rx.sysx @ 
+SYSMOD/RRC_DataRecord.sysx @ 
+SYSMOD/RRC_DataGlobal.sysx @ 
+SYSMOD/RRC_UserInteraction.sysx @ 
+PROGMOD/RRC_Main.modx @ 
+SYSMOD/RRC_License_RW7.sysx @ 
+
+>>TASK5: (T_TX,,)
+SYSMOD/RRC_DataRecord.sysx @ 
+SYSMOD/RRC_Transmitter_Tx.sysx @ 
+SYSMOD/RRC_DataTask_Tx.sysx @ 
+SYSMOD/RRC_Control_Tx.sysx @ 
+SYSMOD/RRC_DataGlobal.sysx @ 
+SYSMOD/RRC_UserInteraction.sysx @ 
+PROGMOD/RRC_Main.modx @ 
+SYSMOD/RRC_License_RW7.sysx @ 
+
+
+>>EOF:
